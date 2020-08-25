@@ -4,16 +4,38 @@ intents:
   - affirm
   - deny
   - bot_challenge
+  - general_recruitment
+  - general_costs
+  - general_deadlines
 
 responses:
   utter_greet:
-  - text: "Cześć. Jak się masz?"
+    - text: "Cześć. Jestem wirtualnym asystentem rekrutacji."
+  
+  utter_general_questions:
+    - text: "Chętnie odpowiem na twoje pytania"
+      buttons:
+      - title: "Rekrutacja"
+        payload: "chciałem zapytać o rekrutację"
+      - title: "Opłaty"
+        payload: "chciałem zapytać o koszty"
+      - title: "Terminy"
+        payload: "chciałem zapytać o terminy"
 
   utter_goodbye:
-  - text: "Miłego dnia"
+    - text: "Miłego dnia"
 
   utter_iamabot:
-  - text: "Jestem wirtualnym asystentem rekrutacji"
+    - text: "Jestem wirtualnym asystentem rekrutacji"
+
+  utter_rectuitment: 
+    - text: "Recruitment"
+
+  utter_costs: 
+    - text: "Costs"
+
+  utter_deadlines: 
+    - text: "Deadlines"
 
 session_config:
   session_expiration_time: 60
