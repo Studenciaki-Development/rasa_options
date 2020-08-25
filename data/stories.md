@@ -31,7 +31,7 @@
   - action_general_options
 * general_questions{"category":"Terminy"}
   - action_general_options
-* specific_dedlines_turns{"subcategory_Terminy":"2turn","category":"Terminy"}
+* specific_dedlines{"subcategory":"2turn","category":"Terminy"}
   - action_general_options
 
 ## bot single 2
@@ -46,11 +46,13 @@
   - utter_iamabot
 * general_questions{"category":"Terminy"}
   - action_general_options
-* specific_dedlines_turns{"subcategory_Terminy":"1turn"}
+* specific_dedlines{"subcategory":"1turn"}
   - action_general_options
 * general_questions{"category":"Rekrutacja"}
   - action_general_options
 * general_questions{"category":"Opłaty"}
+  - action_general_options
+* specific_costs{"subcategory":"students_costs"}
   - action_general_options
 * goodbye
   - utter_goodbye
@@ -59,5 +61,28 @@
 * greet
   - utter_greet
   - action_general_options
-* general_questions{"subcategory_Terminy":"1turn"}
+* general_questions{"subcategory":"1turn"}
+  - action_general_options
+
+## bot subcategory 2
+* greet
+  - utter_greet
+  - action_general_options
+* general_questions{"subcategory":"1turn"}
+  - action_general_options
+* specific_recruitment{"subcategory":"limits"}
+  - action_general_options
+
+## bot subcategory 3
+* greet
+  - utter_greet
+  - action_general_options
+* specific_recruitment{"subcategory":"courses"}
+  - action_general_options
+
+## bot subcategory 3
+* greet
+  - utter_greet
+  - action_general_options
+* specific_costs{"subcategory":"returns"}
   - action_general_options

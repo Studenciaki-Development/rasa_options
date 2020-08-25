@@ -5,8 +5,9 @@ intents:
   - deny
   - bot_challenge
   - general_questions
-  - specific_dedlines_turns
-  - specific_deadlines_documents
+  - specific_dedlines
+  - specific_recruitment
+  - specific_costs
 
 
 actions:
@@ -14,12 +15,12 @@ actions:
 
 entities:
 - category
-- subcategory_Terminy
+- subcategory
 
 slots:
   category:
     type: unfeaturized
-  subcategory_Terminy:
+  subcategory:
     type: unfeaturized
 
 responses:
@@ -31,33 +32,6 @@ responses:
 
   utter_iamabot:
     - text: "Jestem wirtualnym asystentem rekrutacji"
-
-  utter_recruitment_start: 
-    - text: "utter_recruitment_start"
-
-  utter_second_turn: 
-    - text: "utter_second_turn"
-
-  utter_documents: 
-    - text: "utter_documents"
-
-  utter_recruitment_limits:
-    - text: "utter_recruitment_limits"
-
-  utter_recruitment_courses: 
-    - text: "utter_recruitment_courses"
-
-  utter_recruitment_available: 
-    - text: "utter_recruitment_available"
-
-  utter_costs_recruitment:
-    - text: "utter_costs_recruitment"
-
-  utter_costs_students_costs: 
-    - text: "utter_costs_students_costs"
-
-  utter_costs_returns: 
-    - text: "utter_costs_returns"
 
 session_config:
   session_expiration_time: 60

@@ -96,22 +96,22 @@
 - rekrutacji
 - rekrutacja
 
-## intent:specific_dedlines_turns
-- kiedy zaczyna się [druga tura]{"entity":"subcategory_Terminy","value":"2turn"} [rekrutacja]{"entity":"category","value":"Rekrutacja"}
-- kiedy zaczyna się [pierwsza tura]{"entity":"subcategory_Terminy","value":"1turn"} [rekrutacja]{"entity":"category","value":"Rekrutacja"}
-- czy będzie [druga tura]{"entity":"subcategory_Terminy","value":"2turn"} [rekrutacja]{"entity":"category","value":"Rekrutacja"}
-- od kiedy zaczyna sie [druga tura]{"entity":"subcategory_Terminy","value":"2turn"} [rekrutacja]{"entity":"category","value":"Rekrutacja"}
-- od kiedy zaczyna sie [pierwsza tura]{"entity":"subcategory_Terminy","value":"1turn"} [rekrutacja]{"entity":"category","value":"Rekrutacja"}
-- co z [pierwsza tura]{"entity":"subcategory_Terminy","value":"1turn"} [rekrutacja]{"entity":"category","value":"Rekrutacja"}
-- co z [druga tura]{"entity":"subcategory_Terminy","value":"2turn"} [rekrutacja]{"entity":"category","value":"Rekrutacja"}
-- co z [dokumenty]{"entity":"subcategory_Terminy","value":"Dokumenty"}
-- czy odbędzie sie [druga tura]{"entity":"subcategory_Terminy","value":"2turn"} [rekrutacja]{"entity":"category","value":"Rekrutacja"}
-- kiedy rozpoczyna się [druga tura]{"entity":"subcategory_Terminy","value":"2turn"} [rekrutacja]{"entity":"category","value":"Rekrutacja"}
-- kiedy rozpoczyna się [pierwsza tura]{"entity":"subcategory_Terminy","value":"1turn"} [rekrutacja]{"entity":"category","value":"Rekrutacja"}
-- do kiedy trzeba dostarczyć [dokumenty]{"entity":"subcategory_Terminy","value":"Dokumenty"}
-- jaki jest ostateczny czas na dostarczenie [dokumenty]{"entity":"subcategory_Terminy","value":"Dokumenty"}
-- kiedy można donieść [dokumenty]{"entity":"subcategory_Terminy","value":"Dokumenty"}
-- od kiedy można przynosić [dokumenty]{"entity":"subcategory_Terminy","value":"Dokumenty"}
+## intent:specific_dedlines
+- kiedy zaczyna się [druga tura]{"entity":"subcategory","value":"2turn"} [rekrutacja]{"entity":"category","value":"Rekrutacja"}
+- kiedy zaczyna się [pierwsza tura]{"entity":"subcategory","value":"1turn"} [rekrutacja]{"entity":"category","value":"Rekrutacja"}
+- czy będzie [druga tura]{"entity":"subcategory","value":"2turn"} [rekrutacja]{"entity":"category","value":"Rekrutacja"}
+- od kiedy zaczyna sie [druga tura]{"entity":"subcategory","value":"2turn"} [rekrutacja]{"entity":"category","value":"Rekrutacja"}
+- od kiedy zaczyna sie [pierwsza tura]{"entity":"subcategory","value":"1turn"} [rekrutacja]{"entity":"category","value":"Rekrutacja"}
+- co z [pierwsza tura]{"entity":"subcategory","value":"1turn"} [rekrutacja]{"entity":"category","value":"Rekrutacja"}
+- co z [druga tura]{"entity":"subcategory","value":"2turn"} [rekrutacja]{"entity":"category","value":"Rekrutacja"}
+- co z [dokumenty]{"entity":"subcategory","value":"Dokumenty"}
+- czy odbędzie sie [druga tura]{"entity":"subcategory","value":"2turn"} [rekrutacja]{"entity":"category","value":"Rekrutacja"}
+- kiedy rozpoczyna się [druga tura]{"entity":"subcategory","value":"2turn"} [rekrutacja]{"entity":"category","value":"Rekrutacja"}
+- kiedy rozpoczyna się [pierwsza tura]{"entity":"subcategory","value":"1turn"} [rekrutacja]{"entity":"category","value":"Rekrutacja"}
+- do kiedy trzeba dostarczyć [dokumenty]{"entity":"subcategory","value":"Dokumenty"}
+- jaki jest ostateczny czas na dostarczenie [dokumenty]{"entity":"subcategory","value":"Dokumenty"}
+- kiedy można donieść [dokumenty]{"entity":"subcategory","value":"Dokumenty"}
+- od kiedy można przynosić [dokumenty]{"entity":"subcategory","value":"Dokumenty"}
 
 ## synonym:1turn
 - pierwszej tury
@@ -129,47 +129,68 @@
 - dokumentów
 - dokumentami
 
-## intent:specific_Rekrutacja_limits
-- jakie sa limity przyjęć na studia
-- jakie są limity na kierunkach
-- jaki jest limit miejsc na kierunku
-- czy są limity miejsc
-- co z limitami miejsc
-- czy istnieją limity przyjęć na kierunek
-- jak sprawdzić limit miejsc na kierunku
+## intent:specific_recruitment
+- jakie sa [limity]{"entity":"subcategory","value":"limits"} przyjęć na studia
+- jakie są [kierunki]{"entity":"subcategory","value":"courses"}
+- jakie są [limity]{"entity":"subcategory","value":"limits"} na kierunkach
+- jaki jest [limity]{"entity":"subcategory","value":"limits"} miejsc na kierunku
+- czy są [limity]{"entity":"subcategory","value":"limits"} miejsc
+- co z [limity]{"entity":"subcategory","value":"limits"} miejsc
+- czy istnieją [limity]{"entity":"subcategory","value":"limits"} przyjęć na kierunek
+- jak sprawdzić [limity]{"entity":"subcategory","value":"limits"} miejsc na kierunku
+- chciałbym zobaczyć liste [kierunki]{"entity":"subcategory","value":"courses"}
+- dla jakch [kierunki]{"entity":"subcategory","value":"courses"} prowadzicie rekrutację
+- na jakich [kierunki]{"entity":"subcategory","value":"courses"} jest prowadzona rekrutacja
+- ile zostało [wolne miejsca]{"entity":"subcategory","value":"available"} 
+- czy zostały [wolne miejsca]{"entity":"subcategory","value":"available"} 
+- czy są jeszcze jakieś [wolne miejsca]{"entity":"subcategory","value":"available"}
+- czy są jeszcze [wolne miejsca]{"entity":"subcategory","value":"available"}  na kierunku
+- jak sprawdzić ilość [wolne miejsca]{"entity":"subcategory","value":"available"} 
 
-## intent:specific_Rekrutacja_courses
-- jakie są kierunki
-- na jakie kierunki rekrutujecie
-- na jakie kierunki można się rekrutować
-- chciałbym zobaczyć liste kierunków
-- dla jakch kierunków prowadzicie rekrutację
-- na jakich kierunkach jest prowadzona rekrutacja
+## synonym:limits
+- limit
+- limitami
+- limitach
+- limitów
 
-## intent:specific_Rekrutacja_available
-- ile zostało wolnych miejsc
-- czy zostały wolne miejsca
-- czy są jeszcze jakieś wolne miejsca
-- czy są jeszcze wolne miejsca na kierunku
-- jak sprawdzić ilość wolnych miejsc
+## synonym:courses
+- kierunkach
+- kierunki
+- kierunkami
+- kierunków
 
-## intent:specific_Opłaty_Rekrutacja
-- ile wynosi opłata rekrutacyjna
-- ile trzeba zapłacić za rekrutację
-- jaka jest opłata rekrutacyjna
-- co z opłatą rekrutacyjną
+## synonym:available
+- wolnych miejsc
+- wolnych miejscach
 
-## intent:specific_Opłaty_students_Opłaty
-- ile wynoszą opłaty studenckie
-- czy są jakieś dodatkowe opłąty
-- jakie są dodatkowe opłaty
-- co z dodatkowymi opłatami
-- ile wynoszą dodatkowe opłaty
+## intent:specific_costs
+- ile wynosi [koszty]{"entity":"category","value":"Opłaty"} [rekrutacyjna]{"entity":"subcategory","value":"recruitment_costs"} 
+- jaka jest [koszty]{"entity":"category","value":"Opłaty"} [rekrutacyjna]{"entity":"subcategory","value":"recruitment_costs"} 
+- co z [koszty]{"entity":"category","value":"Opłaty"} [rekrutacyjna]{"entity":"subcategory","value":"recruitment_costs"}
+- ile wynoszą [koszty]{"entity":"category","value":"Opłaty"} [rekrutacyjna]{"entity":"subcategory","value":"recruitment_costs"}
+- czy są jest [koszty]{"entity":"category","value":"Opłaty"} [rekrutacyjna]{"entity":"subcategory","value":"recruitment_costs"}
+- ile wynosi [koszty]{"entity":"category","value":"Opłaty"} [studenckie]{"entity":"subcategory","value":"students_costs"} 
+- jaka jest [koszty]{"entity":"category","value":"Opłaty"} [studenckie]{"entity":"subcategory","value":"students_costs"} 
+- co z [koszty]{"entity":"category","value":"Opłaty"} [studenckie]{"entity":"subcategory","value":"students_costs"}
+- ile wynoszą [koszty]{"entity":"category","value":"Opłaty"} [studenckie]{"entity":"subcategory","value":"students_costs"}
+- czy są jest [koszty]{"entity":"category","value":"Opłaty"} [studenckie]{"entity":"subcategory","value":"students_costs"}
+- czy jest możliwosć otrzymania [zwrotu]{"entity":"subcategory","value":"returns"} [koszty]{"entity":"category","value":"Opłaty"}
+- co ze [zwrotu]{"entity":"subcategory","value":"returns"} [koszty]{"entity":"category","value":"Opłaty"}
+- jakie są [zwrotu]{"entity":"subcategory","value":"returns"} za [koszty]{"entity":"category","value":"Opłaty"}
+- czy są przewidziane [zwrotu]{"entity":"subcategory","value":"returns"} [koszty]{"entity":"category","value":"Opłaty"}
 
-## intent:specific_Opłaty_returns
-- czy jest możliwosć otrzymania zwrotu opłat
-- czy jest możliwosć otrzymania zwrotu kosztów
-- co ze zwrotami opłat
-- jakie są zwroty za opłaty
-- czy są przewidziane zwroty opłat
-- czy są przewidziane zwroty kosztów -->
+## synonym:recruitment_costs
+- rekrutacyjnej
+- rekrutacyjne
+
+## synonym:students_costs
+- studenckie
+- studenckimi
+- dodatkowe
+- dodatkowymi
+
+## synonym:returns
+- zwroty
+- zwrotami
+- zwrotów
+

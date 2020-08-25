@@ -19,33 +19,58 @@ class Categories(Base):
 Base.metadata.create_all(engine)
 Session = sessionmaker(bind=engine) 
 
+def getInfo(category):
+    print(f"1 category {category}")
+    session = Session()
+    try:
+        message = session.query(Categories.message).filter(Categories.name==category).one()
+        session.close()
+        return message[0]
+    except:
+        message = "Error"
+        return message
+
 def getCategories(category):
     session = Session()
-
     try:
         category_id = session.query(Categories.id).filter(Categories.name==category)
-
-        categories = session.query(Categories).filter(
+        subcategoryList = session.query(Categories).filter(
             Categories.parent_id == category_id)
-        
-        return categories
+        session.close()
+
+        return subcategoryList
     except:
-        return []
+        return [0, 0]
 
-def parseQuery(selected_category,subcategory_deadlines):
-        if subcategory_deadlines is not None:
-            if subcategory_deadlines == '1turn':
-                subcategory_deadlines = "Rozpoczęcie rekrutacji"
-            elif subcategory_deadlines== "2turn":
-                subcategory_deadlines = "Druga tura"
-            categories = getCategories(subcategory_deadlines)
+def translateEntity(subcategory):
+    if subcategory == '1turn':
+        subcategory = "Rozpoczęcie rekrutacji"
+    elif subcategory== "2turn":
+        subcategory = "Druga tura"
+    elif subcategory== "limits":
+        subcategory = "Limity przyjęć"
+    elif subcategory== "courses":
+        subcategory = "Lista kierunków"
+    elif subcategory== "available":
+        subcategory = "Wolne miejsca"
+    elif subcategory== "recruitment_costs":
+        subcategory = "Opłata rekrutacyjna"
+    elif subcategory== "students_costs":
+        subcategory = "Opłata za studia"
+    elif subcategory== "returns":
+        subcategory = "Zwrot opłat"
+    return subcategory
+
+def parseQuery(selected_category,subcategory):
+        if subcategory is not None:
+            subcategory = translateEntity(subcategory)
+            subcategoryList = getCategories(subcategory)
         elif selected_category is not None:
-            categories = getCategories(selected_category)
+            subcategoryList = getCategories(selected_category)
         else:
-            categories = getCategories('root') 
+            subcategoryList = getCategories('root') 
 
-
-        return categories
+        return subcategoryList
 
 class ActionGeneralOptions(Action):
 
@@ -58,19 +83,23 @@ class ActionGeneralOptions(Action):
 
         buttonList = []
         selected_category = tracker.get_slot("category")
-        subcategory_deadlines = tracker.get_slot("subcategory_Terminy")
+        subcategory = tracker.get_slot("subcategory")
 
-        print(f"1 Selected category {selected_category}")
-        print(f"1 Selected category {subcategory_deadlines}")
-        categories = parseQuery(selected_category,subcategory_deadlines)
+        subcategoryList = parseQuery(selected_category,subcategory)
 
-        for category in categories:
+        for category in subcategoryList:
             title = f"{category.name}"
             payload = f"{category.payload}"
             buttonList.append({"title": title, "payload": payload})
 
+        if(len(buttonList) == 0):
+            subcategory=translateEntity(subcategory)
+            print(f"1 subcategory {subcategory}")
+            message = getInfo(subcategory)
+            dispatcher.utter_message(text=message)
+        else:
+            message = "Wybierz kategorię pytania"
+            dispatcher.utter_message(text=message, buttons=buttonList)
 
-        message = "Test message 1"
-        dispatcher.utter_message(text=message, buttons=buttonList)
 
         return [AllSlotsReset()]
