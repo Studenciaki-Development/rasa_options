@@ -40,27 +40,64 @@
 - z kim rozmawiam
 - z kim mam przyjemność
 
-## intent:general_recruitment
-- chciałem zapytać o rekrutację
-- mam dodatkowe pytania dotyczące rekrutacji
-- potrzeguję więcej informacji na temat rekrutacji
-- chciałby się dowiedizeć coś więcej o rekrutacji
+## intent:general_questions
+- chciałem zapytać o [rekrutacja]{"entity":"category","value":"recruitment"}
+- chciałem zapytać o [koszty]{"entity":"category","value":"costs"}
+- chciałem zapytać o [termin]{"entity":"category","value":"deadlines"}
+- mam dodatkowe pytania dotyczące [rekrutacja]{"entity":"category","value":"recruitment"}
+- mam dodatkowe pytania dotyczące [koszty]{"entity":"category","value":"costs"}
+- mam dodatkowe pytania dotyczące [termin]{"entity":"category","value":"deadlines"}
+- potrzebuję więcej informacji na temat [rekrutacja]{"entity":"category","value":"recruitment"}
+- potrzebuję więcej informacji na temat [koszty]{"entity":"category","value":"costs"}
+- potrzebuję więcej informacji na temat [termin]{"entity":"category","value":"deadlines"}
+- chciałby się dowiedzieć coś więcej o [rekrutacja]{"entity":"category","value":"recruitment"}
+- chciałby się dowiedzieć coś więcej o [koszty]{"entity":"category","value":"costs"}
+- chciałby się dowiedzieć coś więcej o [termin]{"entity":"category","value":"deadlines"}
+- prosze o więcej informacji na temat [rekrutacja]{"entity":"category","value":"recruitment"}
+- prosze o więcej informacji na temat [koszty]{"entity":"category","value":"costs"}
+- prosze o więcej informacji na temat [termin]{"entity":"category","value":"deadlines"}
+- gdzie mogę uzyskać informacje na temat [rekrutacja]{"entity":"category","value":"recruitment"}
+- gdzie mogę uzyskać informacje na temat [koszty]{"entity":"category","value":"costs"}
+- gdzie mogę uzyskać informacje na temat [termin]{"entity":"category","value":"deadlines"}
+- mam pytania dotyczące [rekrutacja]{"entity":"category","value":"recruitment"}
+- mam pytania dotyczące [koszty]{"entity":"category","value":"costs"}
+- mam pytania dotyczące [termin]{"entity":"category","value":"deadlines"}
+- chciałem poznać [rekrutacja]{"entity":"category","value":"recruitment"}
+- chciałem poznać [koszty]{"entity":"category","value":"costs"}
+- chciałem poznać [termin]{"entity":"category","value":"deadlines"}
+- co z [rekrutacja]{"entity":"category","value":"recruitment"}
+- co z [koszty]{"entity":"category","value":"costs"}
+- co z [termin]{"entity":"category","value":"deadlines"}
+- mam kilka pytań odnośnie do [rekrutacja]{"entity":"category","value":"recruitment"}
+- mam kilka pytań odnośnie do [koszty]{"entity":"category","value":"costs"}
+- mam kilka pytań odnośnie do [termin]{"entity":"category","value":"deadlines"}
+- mam kilka pytań odnośnie [rekrutacja]{"entity":"category","value":"recruitment"}
+- mam kilka pytań odnośnie [koszty]{"entity":"category","value":"costs"}
+- mam kilka pytań odnośnie [termin]{"entity":"category","value":"deadlines"}
 
-## intent:general_costs
-- chciałem zapytać o koszty i opłaty
-- prosze o więcej informacji na temat kosztów
-- potrzebuję więcej informacji na temat opłat
-- gdzie mogę uzyskać informacje na temat kosztów
+## synonym:deadlines
+- terminy
+- terminami
+- terminach
+- terminy
+- terminów
 
-## intent:general_deadlines
-- mam pytania dotyczące terminów
-- chciałem zapytać o terminy
-- chciałem poznać terminy
-- co z terminami
-- mam kilka pytań odnośnie do terminów
-- mam kilka pytań odnośnie terminów
+## synonym:costs
+- koszty
+- opłaty
+- kosztów
+- opłat
+- koszty i opłaty
+- kosztów i opłat
 
-## intent:specific_deadlines_recruitment_start
+## synonym:recruitment
+- rekrutację
+- rekrutacją
+- rekrutacje
+- rekrutacji
+- rekrutacja
+
+<!-- ## intent:specific_deadlines_recruitment_start
 - kiedy zaczyna się rekrutacja
 - od kiedy można sie rekrutować
 - kiedy można zaczynbać rekrutację
@@ -126,4 +163,4 @@
 - co ze zwrotami opłat
 - jakie są zwroty za opłaty
 - czy są przewidziane zwroty opłat
-- czy są przewidziane zwroty kosztów
+- czy są przewidziane zwroty kosztów -->

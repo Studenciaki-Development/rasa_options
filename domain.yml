@@ -4,9 +4,7 @@ intents:
   - affirm
   - deny
   - bot_challenge
-  - general_recruitment
-  - general_costs
-  - general_deadlines
+  - general_questions
   - specific_deadlines_recruitment_start
   - specific_dedlines_second_turn
   - specific_deadlines_documents
@@ -17,59 +15,19 @@ intents:
   - specific_costs_students_costs
   - specific_costs_returns
 
+actions:
+- action_general_options
+
+entities:
+- category
+
+slots:
+  category:
+    type: unfeaturized
+
 responses:
   utter_greet:
     - text: "Cześć. Jestem wirtualnym asystentem rekrutacji."
-
-  utter_general_questions_fallback:
-    - text: "Niestety nie jestem w stanie pomóc. Proszę zmień formę pytania lub wybierz jedną z kategorii:"
-      buttons:
-      - title: "Rekrutacja"
-        payload: "potrzebuję więcej informacji na temat rekrutacji"
-      - title: "Opłaty"
-        payload: "prosze o więcej informacji na temat kosztów"
-      - title: "Terminy"
-        payload: "chciałem zapytać o terminy"
-  
-  utter_general_questions:
-    - text: "Chętnie odpowiem na twoje pytania"
-      buttons:
-      - title: "Rekrutacja"
-        payload: "potrzebuję więcej informacji na temat rekrutacji"
-      - title: "Opłaty"
-        payload: "prosze o więcej informacji na temat kosztów"
-      - title: "Terminy"
-        payload: "chciałem zapytać o terminy"
-
-  utter_options_deadlines:
-    - text: "Na jaki temat związany z termianmi chciałbyś zadać pytanie?"
-      buttons:
-      - title: "Rozpoczęcie rekrutacji"
-        payload: "kiedy zaczyna się rekrutacja"
-      - title: "Druga tura rekrutacji"
-        payload: "kiedy rozpoczyna się druga tura"
-      - title: "Dostarczenie dokumentów"
-        payload: "do kiedy trzeba dostarczyć dokumenty"
-
-  utter_options_rectuitment:
-    - text: "Na jaki temat związany z rekrutacją chciałbyś zadać pytanie?"
-      buttons:
-      - title: "Limity przyjęć"
-        payload: "jakie są limity przyjęć na studia"
-      - title: "Lista kierunków"
-        payload: "jakie są kierunki studiów"
-      - title: "Wolne miejsca"
-        payload: "czy są jeszcze jakieś wolne miejsca"
-
-  utter_options_costs:
-    - text: "Na jaki temat związany z opłatami chciałbyś zadać pytanie?"
-      buttons:
-      - title: "Opłata rekrutacyjna"
-        payload: "ile wynosi opłata rekrutacyjna"
-      - title: "Opłata za studia"
-        payload: "czy są jakieś dodatkowe opłąty"
-      - title: "Zwrot opłat"
-        payload: "czy jest możliwosć otrzymania zwrotu opłat"
 
   utter_goodbye:
     - text: "Miłego dnia"
@@ -103,8 +61,6 @@ responses:
 
   utter_costs_returns: 
     - text: "utter_costs_returns"
-
-
 
 session_config:
   session_expiration_time: 60
