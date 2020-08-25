@@ -10,6 +10,9 @@ intents:
   - specific_deadlines_recruitment_start
   - specific_dedlines_second_turn
   - specific_deadlines_documents
+  - specific_recruitment_limits
+  - specific_recruitment_courses
+  - specific_recruitment_available
 
 responses:
   utter_greet:
@@ -35,14 +38,21 @@ responses:
       - title: "Dostarczenie dokumentów"
         payload: "do kiedy trzeba dostarczyć dokumenty"
 
+  utter_options_rectuitment:
+    - text: "Na jaki temat związany z rekrutacją chciałbyś zadać pytanie?"
+      buttons:
+      - title: "Limity przyjęć"
+        payload: "jakie są limity przyjęć na studia"
+      - title: "Lista kierunków"
+        payload: "jakie są kierunki studiów"
+      - title: "Wolne miejsca"
+        payload: "czy są jeszcze jakieś wolne miejsca"
+
   utter_goodbye:
     - text: "Miłego dnia"
 
   utter_iamabot:
     - text: "Jestem wirtualnym asystentem rekrutacji"
-
-  utter_rectuitment: 
-    - text: "Recruitment"
 
   utter_costs: 
     - text: "Costs"
@@ -55,6 +65,15 @@ responses:
 
   utter_documents: 
     - text: "utter_documents"
+
+  utter_recruitment_limits:
+    - text: "utter_recruitment_limits"
+
+  utter_recruitment_courses: 
+    - text: "utter_recruitment_courses"
+
+  utter_recruitment_available: 
+    - text: "utter_recruitment_available"
 
 
 

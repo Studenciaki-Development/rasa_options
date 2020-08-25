@@ -18,10 +18,6 @@
 * goodbye
   - utter_goodbye
 
-## bot Recruitment
-* general_recruitment
-  - utter_rectuitment
-
 ## bot Costs
 * general_costs
   - utter_costs
@@ -47,3 +43,25 @@
   - utter_options_deadlines
 * specific_deadlines_documents
   - utter_documents
+
+## bot Recruitment
+* general_recruitment
+  - utter_options_rectuitment
+
+## bot Recruitment + option 1
+* general_recruitment
+  - utter_options_rectuitment
+* specific_recruitment_limits
+  - utter_recruitment_limits
+
+## bot Recruitment + option 2
+* general_recruitment
+  - utter_options_rectuitment
+* specific_recruitment_courses
+  - utter_recruitment_courses
+
+## bot Recruitment + option 3
+* general_recruitment
+  - utter_options_rectuitment
+* specific_recruitment_available
+  - utter_recruitment_available

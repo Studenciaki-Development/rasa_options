@@ -46,6 +46,7 @@
 - ile zostało wolnych miejsc
 - na jakie kierunki rekrutujecie
 - chciałbym zobaczyć listę kierunków
+- chciałem zapytać o rekrutację
 
 ## intent:general_costs
 - ile wynosi opłata rekrutacyjna
@@ -66,7 +67,7 @@
 - od kiedy można sie rekrutować
 - kiedy można zaczynbać rekrutację
 - od kiedy mozna się rejestrować
-- chciałem zapytać o rekrutację
+- chciałem zapytać o czas rozpoczęcia rekrutacji
 
 ## intent:specific_dedlines_second_turn
 - kiedy zaczyna się druga tura
@@ -83,3 +84,27 @@
 - od kiedy można przynosić dokumenty
 - co z dokumentami
 - do kiedy trzeba dostarczyć dokumenty
+
+## intent:specific_recruitment_limits
+- jakie sa limity przyjęć na studia
+- jakie są limity na kierunkach
+- jaki jest limit miejsc na kierunku
+- czy są limity miejsc
+- co z limitami miejsc
+- czy istnieją limity przyjęć na kierunek
+- jak sprawdzić limit miejsc na kierunku
+
+## intent:specific_recruitment_courses
+- jakie są kierunki
+- na jakie kierunki rekrutujecie
+- na jakie kierunki można się rekrutować
+- chciałbym zobaczyć liste kierunków
+- dla jakch kierunków prowadzicie rekrutację
+- na jakich kierunkach jest prowadzona rekrutacja
+
+## intent:specific_recruitment_available
+- ile zostało wolnych miejsc
+- czy zostały wolne miejsca
+- czy są jeszcze jakieś wolne miejsca
+- czy są jeszcze wolne miejsca na kierunku
+- jak sprawdzić ilość wolnych miejsc
