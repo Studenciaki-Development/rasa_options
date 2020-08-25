@@ -54,8 +54,32 @@
 - czy istnieją zwroty kosztów
 
 ## intent:general_deadlines
-- do kiedy należy dostarczyć dokumenty
-- kiedy zaczyna sie druga tura
-- czy będzie druga tura
+- mam pytania dotyczące terminów
+- chciałem zapytać o terminy
+- chciałem poznać terminy
+- co z terminami
+- mam kilka pytań odnośnie do terminów
+- mam kilka pytań odnośnie terminów
+
+## intent:specific_deadlines_recruitment_start
 - kiedy zaczyna się rekrutacja
 - od kiedy można sie rekrutować
+- kiedy można zaczynbać rekrutację
+- od kiedy mozna się rejestrować
+- chciałem zapytać o rekrutację
+
+## intent:specific_dedlines_second_turn
+- kiedy zaczyna się druga tura
+- czy będzie druga tura
+- od kiedy zaczyna sie druga tura
+- co z drugą turą
+- czy odbędzie sie druga tura
+- kiedy rozpoczyna się druga tura
+
+## intent:specific_deadlines_documents
+- do kiedy należy dostarczyć dokumenty
+- jaki jest ostateczny czas na dostarczenie dokumentów
+- kiedy można donieść dokumenty
+- od kiedy można przynosić dokumenty
+- co z dokumentami
+- do kiedy trzeba dostarczyć dokumenty

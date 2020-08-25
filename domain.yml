@@ -7,6 +7,9 @@ intents:
   - general_recruitment
   - general_costs
   - general_deadlines
+  - specific_deadlines_recruitment_start
+  - specific_dedlines_second_turn
+  - specific_deadlines_documents
 
 responses:
   utter_greet:
@@ -22,6 +25,16 @@ responses:
       - title: "Terminy"
         payload: "chciałem zapytać o terminy"
 
+  utter_options_deadlines:
+    - text: "Na jaki temat związany z termianmi chciałbyś zadać pytanie?"
+      buttons:
+      - title: "Rozpoczęcie rekrutacji"
+        payload: "kiedy zaczyna się rekrutacja"
+      - title: "Druga tura rekrutacji"
+        payload: "kiedy rozpoczyna się druga tura"
+      - title: "Dostarczenie dokumentów"
+        payload: "do kiedy trzeba dostarczyć dokumenty"
+
   utter_goodbye:
     - text: "Miłego dnia"
 
@@ -34,8 +47,16 @@ responses:
   utter_costs: 
     - text: "Costs"
 
-  utter_deadlines: 
-    - text: "Deadlines"
+  utter_recruitment_start: 
+    - text: "utter_recruitment_start"
+
+  utter_second_turn: 
+    - text: "utter_second_turn"
+
+  utter_documents: 
+    - text: "utter_documents"
+
+
 
 session_config:
   session_expiration_time: 60

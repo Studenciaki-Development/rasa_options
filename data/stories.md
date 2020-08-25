@@ -28,4 +28,22 @@
 
 ## bot Deadlines
 * general_deadlines
-  - utter_deadlines
+  - utter_options_deadlines
+
+## bot Deadlines + option 1
+* general_deadlines
+  - utter_options_deadlines
+* specific_deadlines_recruitment_start
+  - utter_recruitment_start
+
+## bot Deadlines + option 2
+* general_deadlines
+  - utter_options_deadlines
+* specific_dedlines_second_turn
+  - utter_second_turn
+
+## bot Deadlines + option 3
+* general_deadlines
+  - utter_options_deadlines
+* specific_deadlines_documents
+  - utter_documents
