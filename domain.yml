@@ -5,24 +5,21 @@ intents:
   - deny
   - bot_challenge
   - general_questions
-  - specific_deadlines_recruitment_start
-  - specific_dedlines_second_turn
+  - specific_dedlines_turns
   - specific_deadlines_documents
-  - specific_recruitment_limits
-  - specific_recruitment_courses
-  - specific_recruitment_available
-  - specific_costs_recruitment
-  - specific_costs_students_costs
-  - specific_costs_returns
+
 
 actions:
 - action_general_options
 
 entities:
 - category
+- subcategory_Terminy
 
 slots:
   category:
+    type: unfeaturized
+  subcategory_Terminy:
     type: unfeaturized
 
 responses:

@@ -32,6 +32,21 @@ def getCategories(category):
     except:
         return []
 
+def parseQuery(selected_category,subcategory_deadlines):
+        if subcategory_deadlines is not None:
+            if subcategory_deadlines == '1turn':
+                subcategory_deadlines = "Rozpoczęcie rekrutacji"
+            elif subcategory_deadlines== "2turn":
+                subcategory_deadlines = "Druga tura"
+            categories = getCategories(subcategory_deadlines)
+        elif selected_category is not None:
+            categories = getCategories(selected_category)
+        else:
+            categories = getCategories('root') 
+
+
+        return categories
+
 class ActionGeneralOptions(Action):
 
     def name(self) -> Text:
@@ -43,23 +58,17 @@ class ActionGeneralOptions(Action):
 
         buttonList = []
         selected_category = tracker.get_slot("category")
-        print(f"1 Selected category {selected_category}")
+        subcategory_deadlines = tracker.get_slot("subcategory_Terminy")
 
-        if selected_category is None:
-            categories = getCategories('root') 
-        else:
-            if selected_category == 'deadlines':
-                selected_category='Terminy'
-            elif selected_category == 'costs':
-                selected_category='Opłaty'
-            elif selected_category == 'recruitment':
-                selected_category='Rekrutacja'
-            categories = getCategories(selected_category)
+        print(f"1 Selected category {selected_category}")
+        print(f"1 Selected category {subcategory_deadlines}")
+        categories = parseQuery(selected_category,subcategory_deadlines)
 
         for category in categories:
             title = f"{category.name}"
             payload = f"{category.payload}"
             buttonList.append({"title": title, "payload": payload})
+
 
         message = "Test message 1"
         dispatcher.utter_message(text=message, buttons=buttonList)

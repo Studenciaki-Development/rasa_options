@@ -41,48 +41,47 @@
 - z kim mam przyjemność
 
 ## intent:general_questions
-- chciałem zapytać o [rekrutacja]{"entity":"category","value":"recruitment"}
-- chciałem zapytać o [koszty]{"entity":"category","value":"costs"}
-- chciałem zapytać o [termin]{"entity":"category","value":"deadlines"}
-- mam dodatkowe pytania dotyczące [rekrutacja]{"entity":"category","value":"recruitment"}
-- mam dodatkowe pytania dotyczące [koszty]{"entity":"category","value":"costs"}
-- mam dodatkowe pytania dotyczące [termin]{"entity":"category","value":"deadlines"}
-- potrzebuję więcej informacji na temat [rekrutacja]{"entity":"category","value":"recruitment"}
-- potrzebuję więcej informacji na temat [koszty]{"entity":"category","value":"costs"}
-- potrzebuję więcej informacji na temat [termin]{"entity":"category","value":"deadlines"}
-- chciałby się dowiedzieć coś więcej o [rekrutacja]{"entity":"category","value":"recruitment"}
-- chciałby się dowiedzieć coś więcej o [koszty]{"entity":"category","value":"costs"}
-- chciałby się dowiedzieć coś więcej o [termin]{"entity":"category","value":"deadlines"}
-- prosze o więcej informacji na temat [rekrutacja]{"entity":"category","value":"recruitment"}
-- prosze o więcej informacji na temat [koszty]{"entity":"category","value":"costs"}
-- prosze o więcej informacji na temat [termin]{"entity":"category","value":"deadlines"}
-- gdzie mogę uzyskać informacje na temat [rekrutacja]{"entity":"category","value":"recruitment"}
-- gdzie mogę uzyskać informacje na temat [koszty]{"entity":"category","value":"costs"}
-- gdzie mogę uzyskać informacje na temat [termin]{"entity":"category","value":"deadlines"}
-- mam pytania dotyczące [rekrutacja]{"entity":"category","value":"recruitment"}
-- mam pytania dotyczące [koszty]{"entity":"category","value":"costs"}
-- mam pytania dotyczące [termin]{"entity":"category","value":"deadlines"}
-- chciałem poznać [rekrutacja]{"entity":"category","value":"recruitment"}
-- chciałem poznać [koszty]{"entity":"category","value":"costs"}
-- chciałem poznać [termin]{"entity":"category","value":"deadlines"}
-- co z [rekrutacja]{"entity":"category","value":"recruitment"}
-- co z [koszty]{"entity":"category","value":"costs"}
-- co z [termin]{"entity":"category","value":"deadlines"}
-- mam kilka pytań odnośnie do [rekrutacja]{"entity":"category","value":"recruitment"}
-- mam kilka pytań odnośnie do [koszty]{"entity":"category","value":"costs"}
-- mam kilka pytań odnośnie do [termin]{"entity":"category","value":"deadlines"}
-- mam kilka pytań odnośnie [rekrutacja]{"entity":"category","value":"recruitment"}
-- mam kilka pytań odnośnie [koszty]{"entity":"category","value":"costs"}
-- mam kilka pytań odnośnie [termin]{"entity":"category","value":"deadlines"}
+- chciałem zapytać o [rekrutacja]{"entity":"category","value":"Rekrutacja"}
+- chciałem zapytać o [koszty]{"entity":"category","value":"Opłaty"}
+- chciałem zapytać o [termin]{"entity":"category","value":"Terminy"}
+- mam dodatkowe pytania dotyczące [rekrutacja]{"entity":"category","value":"Rekrutacja"}
+- mam dodatkowe pytania dotyczące [koszty]{"entity":"category","value":"Opłaty"}
+- mam dodatkowe pytania dotyczące [termin]{"entity":"category","value":"Terminy"}
+- potrzebuję więcej informacji na temat [rekrutacja]{"entity":"category","value":"Rekrutacja"}
+- potrzebuję więcej informacji na temat [koszty]{"entity":"category","value":"Opłaty"}
+- potrzebuję więcej informacji na temat [termin]{"entity":"category","value":"Terminy"}
+- chciałby się dowiedzieć coś więcej o [rekrutacja]{"entity":"category","value":"Rekrutacja"}
+- chciałby się dowiedzieć coś więcej o [koszty]{"entity":"category","value":"Opłaty"}
+- chciałby się dowiedzieć coś więcej o [termin]{"entity":"category","value":"Terminy"}
+- prosze o więcej informacji na temat [rekrutacja]{"entity":"category","value":"Rekrutacja"}
+- prosze o więcej informacji na temat [koszty]{"entity":"category","value":"Opłaty"}
+- prosze o więcej informacji na temat [termin]{"entity":"category","value":"Terminy"}
+- gdzie mogę uzyskać informacje na temat [rekrutacja]{"entity":"category","value":"Rekrutacja"}
+- gdzie mogę uzyskać informacje na temat [koszty]{"entity":"category","value":"Opłaty"}
+- gdzie mogę uzyskać informacje na temat [termin]{"entity":"category","value":"Terminy"}
+- mam pytania dotyczące [rekrutacja]{"entity":"category","value":"Rekrutacja"}
+- mam pytania dotyczące [koszty]{"entity":"category","value":"Opłaty"}
+- mam pytania dotyczące [termin]{"entity":"category","value":"Terminy"}
+- chciałem poznać [rekrutacja]{"entity":"category","value":"Rekrutacja"}
+- chciałem poznać [koszty]{"entity":"category","value":"Opłaty"}
+- chciałem poznać [termin]{"entity":"category","value":"Terminy"}
+- co z [rekrutacja]{"entity":"category","value":"Rekrutacja"}
+- co z [koszty]{"entity":"category","value":"Opłaty"}
+- co z [termin]{"entity":"category","value":"Terminy"}
+- mam kilka pytań odnośnie do [rekrutacja]{"entity":"category","value":"Rekrutacja"}
+- mam kilka pytań odnośnie do [koszty]{"entity":"category","value":"Opłaty"}
+- mam kilka pytań odnośnie do [termin]{"entity":"category","value":"Terminy"}
+- mam kilka pytań odnośnie [rekrutacja]{"entity":"category","value":"Rekrutacja"}
+- mam kilka pytań odnośnie [koszty]{"entity":"category","value":"Opłaty"}
+- mam kilka pytań odnośnie [termin]{"entity":"category","value":"Terminy"}
 
-## synonym:deadlines
+## synonym:Terminy
 - terminy
 - terminami
 - terminach
-- terminy
 - terminów
 
-## synonym:costs
+## synonym:Opłaty
 - koszty
 - opłaty
 - kosztów
@@ -90,37 +89,47 @@
 - koszty i opłaty
 - kosztów i opłat
 
-## synonym:recruitment
+## synonym:Rekrutacja
 - rekrutację
 - rekrutacją
 - rekrutacje
 - rekrutacji
 - rekrutacja
 
-<!-- ## intent:specific_deadlines_recruitment_start
-- kiedy zaczyna się rekrutacja
-- od kiedy można sie rekrutować
-- kiedy można zaczynbać rekrutację
-- od kiedy mozna się rejestrować
-- chciałem zapytać o czas rozpoczęcia rekrutacji
+## intent:specific_dedlines_turns
+- kiedy zaczyna się [druga tura]{"entity":"subcategory_Terminy","value":"2turn"} [rekrutacja]{"entity":"category","value":"Rekrutacja"}
+- kiedy zaczyna się [pierwsza tura]{"entity":"subcategory_Terminy","value":"1turn"} [rekrutacja]{"entity":"category","value":"Rekrutacja"}
+- czy będzie [druga tura]{"entity":"subcategory_Terminy","value":"2turn"} [rekrutacja]{"entity":"category","value":"Rekrutacja"}
+- od kiedy zaczyna sie [druga tura]{"entity":"subcategory_Terminy","value":"2turn"} [rekrutacja]{"entity":"category","value":"Rekrutacja"}
+- od kiedy zaczyna sie [pierwsza tura]{"entity":"subcategory_Terminy","value":"1turn"} [rekrutacja]{"entity":"category","value":"Rekrutacja"}
+- co z [pierwsza tura]{"entity":"subcategory_Terminy","value":"1turn"} [rekrutacja]{"entity":"category","value":"Rekrutacja"}
+- co z [druga tura]{"entity":"subcategory_Terminy","value":"2turn"} [rekrutacja]{"entity":"category","value":"Rekrutacja"}
+- co z [dokumenty]{"entity":"subcategory_Terminy","value":"Dokumenty"}
+- czy odbędzie sie [druga tura]{"entity":"subcategory_Terminy","value":"2turn"} [rekrutacja]{"entity":"category","value":"Rekrutacja"}
+- kiedy rozpoczyna się [druga tura]{"entity":"subcategory_Terminy","value":"2turn"} [rekrutacja]{"entity":"category","value":"Rekrutacja"}
+- kiedy rozpoczyna się [pierwsza tura]{"entity":"subcategory_Terminy","value":"1turn"} [rekrutacja]{"entity":"category","value":"Rekrutacja"}
+- do kiedy trzeba dostarczyć [dokumenty]{"entity":"subcategory_Terminy","value":"Dokumenty"}
+- jaki jest ostateczny czas na dostarczenie [dokumenty]{"entity":"subcategory_Terminy","value":"Dokumenty"}
+- kiedy można donieść [dokumenty]{"entity":"subcategory_Terminy","value":"Dokumenty"}
+- od kiedy można przynosić [dokumenty]{"entity":"subcategory_Terminy","value":"Dokumenty"}
 
-## intent:specific_dedlines_second_turn
-- kiedy zaczyna się druga tura
-- czy będzie druga tura
-- od kiedy zaczyna sie druga tura
-- co z drugą turą
-- czy odbędzie sie druga tura
-- kiedy rozpoczyna się druga tura
+## synonym:1turn
+- pierwszej tury
+- pierwszą turę
+- pierwszą turą
+- pierwszej turze
 
-## intent:specific_deadlines_documents
-- do kiedy należy dostarczyć dokumenty
-- jaki jest ostateczny czas na dostarczenie dokumentów
-- kiedy można donieść dokumenty
-- od kiedy można przynosić dokumenty
-- co z dokumentami
-- do kiedy trzeba dostarczyć dokumenty
+## synonym:2turn
+- drugiej tury
+- drugą turę
+- drugiej turze
+- drugą turą
 
-## intent:specific_recruitment_limits
+## synonym:Dokumenty
+- dokumentów
+- dokumentami
+
+## intent:specific_Rekrutacja_limits
 - jakie sa limity przyjęć na studia
 - jakie są limity na kierunkach
 - jaki jest limit miejsc na kierunku
@@ -129,7 +138,7 @@
 - czy istnieją limity przyjęć na kierunek
 - jak sprawdzić limit miejsc na kierunku
 
-## intent:specific_recruitment_courses
+## intent:specific_Rekrutacja_courses
 - jakie są kierunki
 - na jakie kierunki rekrutujecie
 - na jakie kierunki można się rekrutować
@@ -137,27 +146,27 @@
 - dla jakch kierunków prowadzicie rekrutację
 - na jakich kierunkach jest prowadzona rekrutacja
 
-## intent:specific_recruitment_available
+## intent:specific_Rekrutacja_available
 - ile zostało wolnych miejsc
 - czy zostały wolne miejsca
 - czy są jeszcze jakieś wolne miejsca
 - czy są jeszcze wolne miejsca na kierunku
 - jak sprawdzić ilość wolnych miejsc
 
-## intent:specific_costs_recruitment
+## intent:specific_Opłaty_Rekrutacja
 - ile wynosi opłata rekrutacyjna
 - ile trzeba zapłacić za rekrutację
 - jaka jest opłata rekrutacyjna
 - co z opłatą rekrutacyjną
 
-## intent:specific_costs_students_costs
+## intent:specific_Opłaty_students_Opłaty
 - ile wynoszą opłaty studenckie
 - czy są jakieś dodatkowe opłąty
 - jakie są dodatkowe opłaty
 - co z dodatkowymi opłatami
 - ile wynoszą dodatkowe opłaty
 
-## intent:specific_costs_returns
+## intent:specific_Opłaty_returns
 - czy jest możliwosć otrzymania zwrotu opłat
 - czy jest możliwosć otrzymania zwrotu kosztów
 - co ze zwrotami opłat
