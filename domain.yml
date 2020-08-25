@@ -20,12 +20,22 @@ intents:
 responses:
   utter_greet:
     - text: "Cześć. Jestem wirtualnym asystentem rekrutacji."
+
+  utter_general_questions_fallback:
+    - text: "Niestety nie jestem w stanie pomóc. Proszę zmień formę pytania lub wybierz jedną z kategorii:"
+      buttons:
+      - title: "Rekrutacja"
+        payload: "potrzebuję więcej informacji na temat rekrutacji"
+      - title: "Opłaty"
+        payload: "prosze o więcej informacji na temat kosztów"
+      - title: "Terminy"
+        payload: "chciałem zapytać o terminy"
   
   utter_general_questions:
     - text: "Chętnie odpowiem na twoje pytania"
       buttons:
       - title: "Rekrutacja"
-        payload: "potrzeguję więcej informacji na temat rekrutacji"
+        payload: "potrzebuję więcej informacji na temat rekrutacji"
       - title: "Opłaty"
         payload: "prosze o więcej informacji na temat kosztów"
       - title: "Terminy"

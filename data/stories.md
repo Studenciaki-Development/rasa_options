@@ -5,6 +5,10 @@
 * goodbye
   - utter_goodbye
 
+## fallback story
+* out_of_scope
+  - action_default_fallback
+
 ## bot challenge
 * bot_challenge
   - utter_iamabot
