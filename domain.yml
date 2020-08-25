@@ -1,0 +1,20 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - bot_challenge
+
+responses:
+  utter_greet:
+  - text: "Cześć. Jak się masz?"
+
+  utter_goodbye:
+  - text: "Miłego dnia"
+
+  utter_iamabot:
+  - text: "Jestem wirtualnym asystentem rekrutacji"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
