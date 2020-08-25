@@ -18,10 +18,6 @@
 * goodbye
   - utter_goodbye
 
-## bot Costs
-* general_costs
-  - utter_costs
-
 ## bot Deadlines
 * general_deadlines
   - utter_options_deadlines
@@ -65,3 +61,25 @@
   - utter_options_rectuitment
 * specific_recruitment_available
   - utter_recruitment_available
+
+## bot Costs
+* general_costs
+  - utter_options_costs
+
+## bot Costs + option 1
+* general_costs
+  - utter_options_costs
+* specific_costs_recruitment
+  - utter_costs_recruitment
+
+## bot Costs + option 2
+* general_costs
+  - utter_options_costs
+* specific_costs_students_costs
+  - utter_costs_students_costs
+
+## bot Costs + option 3
+* general_costs
+  - utter_options_costs
+* specific_costs_returns
+  - utter_costs_returns

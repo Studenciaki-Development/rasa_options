@@ -13,6 +13,9 @@ intents:
   - specific_recruitment_limits
   - specific_recruitment_courses
   - specific_recruitment_available
+  - specific_costs_recruitment
+  - specific_costs_students_costs
+  - specific_costs_returns
 
 responses:
   utter_greet:
@@ -22,9 +25,9 @@ responses:
     - text: "Chętnie odpowiem na twoje pytania"
       buttons:
       - title: "Rekrutacja"
-        payload: "chciałem zapytać o rekrutację"
+        payload: "potrzeguję więcej informacji na temat rekrutacji"
       - title: "Opłaty"
-        payload: "chciałem zapytać o koszty"
+        payload: "prosze o więcej informacji na temat kosztów"
       - title: "Terminy"
         payload: "chciałem zapytać o terminy"
 
@@ -48,14 +51,21 @@ responses:
       - title: "Wolne miejsca"
         payload: "czy są jeszcze jakieś wolne miejsca"
 
+  utter_options_costs:
+    - text: "Na jaki temat związany z opłatami chciałbyś zadać pytanie?"
+      buttons:
+      - title: "Opłata rekrutacyjna"
+        payload: "ile wynosi opłata rekrutacyjna"
+      - title: "Opłata za studia"
+        payload: "czy są jakieś dodatkowe opłąty"
+      - title: "Zwrot opłat"
+        payload: "czy jest możliwosć otrzymania zwrotu opłat"
+
   utter_goodbye:
     - text: "Miłego dnia"
 
   utter_iamabot:
     - text: "Jestem wirtualnym asystentem rekrutacji"
-
-  utter_costs: 
-    - text: "Costs"
 
   utter_recruitment_start: 
     - text: "utter_recruitment_start"
@@ -74,6 +84,15 @@ responses:
 
   utter_recruitment_available: 
     - text: "utter_recruitment_available"
+
+  utter_costs_recruitment:
+    - text: "utter_costs_recruitment"
+
+  utter_costs_students_costs: 
+    - text: "utter_costs_students_costs"
+
+  utter_costs_returns: 
+    - text: "utter_costs_returns"
 
 
 

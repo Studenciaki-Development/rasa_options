@@ -41,18 +41,16 @@
 - z kim mam przyjemność
 
 ## intent:general_recruitment
-- co z rekrutacją
-- jakie są limity przyjęć
-- ile zostało wolnych miejsc
-- na jakie kierunki rekrutujecie
-- chciałbym zobaczyć listę kierunków
 - chciałem zapytać o rekrutację
+- mam dodatkowe pytania dotyczące rekrutacji
+- potrzeguję więcej informacji na temat rekrutacji
+- chciałby się dowiedizeć coś więcej o rekrutacji
 
 ## intent:general_costs
-- ile wynosi opłata rekrutacyjna
-- ile wynosi opłata za studia
-- co ze zwrotami opłąt
-- czy istnieją zwroty kosztów
+- chciałem zapytać o koszty i opłaty
+- prosze o więcej informacji na temat kosztów
+- potrzebuję więcej informacji na temat opłat
+- gdzie mogę uzyskać informacje na temat kosztów
 
 ## intent:general_deadlines
 - mam pytania dotyczące terminów
@@ -108,3 +106,24 @@
 - czy są jeszcze jakieś wolne miejsca
 - czy są jeszcze wolne miejsca na kierunku
 - jak sprawdzić ilość wolnych miejsc
+
+## intent:specific_costs_recruitment
+- ile wynosi opłata rekrutacyjna
+- ile trzeba zapłacić za rekrutację
+- jaka jest opłata rekrutacyjna
+- co z opłatą rekrutacyjną
+
+## intent:specific_costs_students_costs
+- ile wynoszą opłaty studenckie
+- czy są jakieś dodatkowe opłąty
+- jakie są dodatkowe opłaty
+- co z dodatkowymi opłatami
+- ile wynoszą dodatkowe opłaty
+
+## intent:specific_costs_returns
+- czy jest możliwosć otrzymania zwrotu opłat
+- czy jest możliwosć otrzymania zwrotu kosztów
+- co ze zwrotami opłat
+- jakie są zwroty za opłaty
+- czy są przewidziane zwroty opłat
+- czy są przewidziane zwroty kosztów
