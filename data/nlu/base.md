@@ -11,6 +11,7 @@
 - no to pa
 - żegnam
 - na razie
+- pa pa
 
 ## intent:affirm
 - tak
