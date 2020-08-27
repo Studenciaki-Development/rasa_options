@@ -10,6 +10,16 @@ from rasa_sdk.forms import FormAction
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 
+FIELDS_OF_STUDY = [
+    "fizyka",
+    "informatyka",
+    "matematyka",
+    "chemia",
+    "biologia",
+    "automatyka",
+    "zarządzanie",
+]
+
 
 class ActionGeneralOptions(Action):
     def name(self) -> Text:
@@ -47,7 +57,7 @@ class ActionGeneralOptions(Action):
 
 class LimitForm(FormAction):
     def name(self) -> Text:
-        return "form_limits"
+        return "form_get_field_of_study_limits"
 
     @staticmethod
     def required_slots(tracker: Tracker) -> List[Text]:

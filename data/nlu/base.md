@@ -5,6 +5,7 @@
 - elo
 - dzień dobry
 - dobry wieczór
+- no hej
 
 ## intent:goodbye
 - do widzenia
@@ -12,6 +13,9 @@
 - żegnam
 - na razie
 - pa pa
+- muszę kończyć
+- było miło
+- ja spadam
 
 ## intent:affirm
 - tak

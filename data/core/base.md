@@ -2,6 +2,11 @@
 * greet
   - utter_greet
   - action_general_options
+
+## base + goodbye
+* greet
+  - utter_greet
+  - action_general_options
 * goodbye
   - utter_goodbye
 
