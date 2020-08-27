@@ -1,0 +1,295 @@
+## intent:field_of_study_limits
+- Jaki jest limit miejsc na kierunku [fizyka]{"entity":"field-of-study", "value": "fizyka"}
+- Jaki jest limit miejsc na kierunku [informatyka]{"entity":"field-of-study", "value": "informatyka"}
+- Jaki jest limit miejsc na kierunku [automatyka]{"entity":"field-of-study", "value": "automatyka"}
+- Jaki jest limit miejsc na kierunku [matematyka]{"entity":"field-of-study", "value": "matematyka"}
+- Jaki jest limit miejsc na kierunku [biologia]{"entity":"field-of-study", "value": "biologia"}
+- Jaki jest limit miejsc na kierunku [chemia]{"entity":"field-of-study", "value": "chemia"}
+- Jaki jest limit miejsc na kierunku [zarządzanie]{"entity":"field-of-study", "value": "zarządzanie"}
+- Jaki jest limit studentów na kierunku [fizyka]{"entity":"field-of-study", "value": "fizyka"}
+- Jaki jest limit studentów na kierunku [informatyka]{"entity":"field-of-study", "value": "informatyka"}
+- Jaki jest limit studentów na kierunku [automatyka]{"entity":"field-of-study", "value": "automatyka"}
+- Jaki jest limit studentów na kierunku [matematyka]{"entity":"field-of-study", "value": "matematyka"}
+- Jaki jest limit studentów na kierunku [biologia]{"entity":"field-of-study", "value": "biologia"}
+- Jaki jest limit studentów na kierunku [chemia]{"entity":"field-of-study", "value": "chemia"}
+- Jaki jest limit studentów na kierunku [zarządzanie]{"entity":"field-of-study", "value": "zarządzanie"}
+- Ilu studentów możecie przyjąć na [fizyka]{"entity":"field-of-study", "value": "fizyka"}
+- Ilu studentów możecie przyjąć na [informatyka]{"entity":"field-of-study", "value": "informatyka"}
+- Ilu studentów możecie przyjąć na [automatyka]{"entity":"field-of-study", "value": "automatyka"}
+- Ilu studentów możecie przyjąć na [matematyka]{"entity":"field-of-study", "value": "matematyka"}
+- Ilu studentów możecie przyjąć na [biologia]{"entity":"field-of-study", "value": "biologia"}
+- Ilu studentów możecie przyjąć na [chemia]{"entity":"field-of-study", "value": "chemia"}
+- Ilu studentów możecie przyjąć na [zarządzanie]{"entity":"field-of-study", "value": "zarządzanie"}
+- Ile jest miejsc na [fizyka]{"entity":"field-of-study", "value": "fizyka"}
+- Ile jest miejsc na [informatyka]{"entity":"field-of-study", "value": "informatyka"}
+- Ile jest miejsc na [automatyka]{"entity":"field-of-study", "value": "automatyka"}
+- Ile jest miejsc na [matematyka]{"entity":"field-of-study", "value": "matematyka"}
+- Ile jest miejsc na [biologia]{"entity":"field-of-study", "value": "biologia"}
+- Ile jest miejsc na [chemia]{"entity":"field-of-study", "value": "chemia"}
+- Ile jest miejsc na [zarządzanie]{"entity":"field-of-study", "value": "zarządzanie"}
+- Ile osób przyjmujecie na [fizyka]{"entity":"field-of-study", "value": "fizyka"}
+- Ile osób przyjmujecie na [informatyka]{"entity":"field-of-study", "value": "informatyka"}
+- Ile osób przyjmujecie na [automatyka]{"entity":"field-of-study", "value": "automatyka"}
+- Ile osób przyjmujecie na [matematyka]{"entity":"field-of-study", "value": "matematyka"}
+- Ile osób przyjmujecie na [biologia]{"entity":"field-of-study", "value": "biologia"}
+- Ile osób przyjmujecie na [chemia]{"entity":"field-of-study", "value": "chemia"}
+- Ile osób przyjmujecie na [zarządzanie]{"entity":"field-of-study", "value": "zarządzanie"}
+- Jaki jest limit [fizyka]{"entity":"field-of-study", "value": "fizyka"}
+- Jaki jest limit [informatyka]{"entity":"field-of-study", "value": "informatyka"}
+- Jaki jest limit [automatyka]{"entity":"field-of-study", "value": "automatyka"}
+- Jaki jest limit [matematyka]{"entity":"field-of-study", "value": "matematyka"}
+- Jaki jest limit [biologia]{"entity":"field-of-study", "value": "biologia"}
+- Jaki jest limit [chemia]{"entity":"field-of-study", "value": "chemia"}
+- Jaki jest limit [zarządzanie]{"entity":"field-of-study", "value": "zarządzanie"}
+- Ilu studentów przyjmujecie na [fizyka]{"entity":"field-of-study", "value": "fizyka"}
+- Ilu studentów przyjmujecie na [informatyka]{"entity":"field-of-study", "value": "informatyka"}
+- Ilu studentów przyjmujecie na [automatyka]{"entity":"field-of-study", "value": "automatyka"}
+- Ilu studentów przyjmujecie na [matematyka]{"entity":"field-of-study", "value": "matematyka"}
+- Ilu studentów przyjmujecie na [biologia]{"entity":"field-of-study", "value": "biologia"}
+- Ilu studentów przyjmujecie na [chemia]{"entity":"field-of-study", "value": "chemia"}
+- Ilu studentów przyjmujecie na [zarządzanie]{"entity":"field-of-study", "value": "zarządzanie"}
+- Ilu studentów możecie przyjąć na [fizyka]{"entity":"field-of-study", "value": "fizyka"} dla studiów [stacjonarne]{"entity":"course-type", "value": "stacjonarne"}
+- Ilu studentów możecie przyjąć na [informatyka]{"entity":"field-of-study", "value": "informatyka"} dla studiów [stacjonarne]{"entity":"course-type", "value": "stacjonarne"}
+- Ilu studentów możecie przyjąć na [automatyka]{"entity":"field-of-study", "value": "automatyka"} dla studiów [stacjonarne]{"entity":"course-type", "value": "stacjonarne"}
+- Ilu studentów możecie przyjąć na [matematyka]{"entity":"field-of-study", "value": "matematyka"} dla studiów [stacjonarne]{"entity":"course-type", "value": "stacjonarne"}
+- Ilu studentów możecie przyjąć na [biologia]{"entity":"field-of-study", "value": "biologia"} dla studiów [stacjonarne]{"entity":"course-type", "value": "stacjonarne"}
+- Ilu studentów możecie przyjąć na [chemia]{"entity":"field-of-study", "value": "chemia"} dla studiów [stacjonarne]{"entity":"course-type", "value": "stacjonarne"}
+- Ilu studentów możecie przyjąć na [zarządzanie]{"entity":"field-of-study", "value": "zarządzanie"} dla studiów [stacjonarne]{"entity":"course-type", "value": "stacjonarne"}
+- Ilu studentów możecie przyjąć na [fizyka]{"entity":"field-of-study", "value": "fizyka"} dla studiów [niestacjonarne]{"entity":"course-type", "value": "niestacjonarne"}
+- Ilu studentów możecie przyjąć na [informatyka]{"entity":"field-of-study", "value": "informatyka"} dla studiów [niestacjonarne]{"entity":"course-type", "value": "niestacjonarne"}
+- Ilu studentów możecie przyjąć na [automatyka]{"entity":"field-of-study", "value": "automatyka"} dla studiów [niestacjonarne]{"entity":"course-type", "value": "niestacjonarne"}
+- Ilu studentów możecie przyjąć na [matematyka]{"entity":"field-of-study", "value": "matematyka"} dla studiów [niestacjonarne]{"entity":"course-type", "value": "niestacjonarne"}
+- Ilu studentów możecie przyjąć na [biologia]{"entity":"field-of-study", "value": "biologia"} dla studiów [niestacjonarne]{"entity":"course-type", "value": "niestacjonarne"}
+- Ilu studentów możecie przyjąć na [chemia]{"entity":"field-of-study", "value": "chemia"} dla studiów [niestacjonarne]{"entity":"course-type", "value": "niestacjonarne"}
+- Ilu studentów możecie przyjąć na [zarządzanie]{"entity":"field-of-study", "value": "zarządzanie"} dla studiów [niestacjonarne]{"entity":"course-type", "value": "niestacjonarne"}
+- Ilu studentów możecie przyjąć na [fizyka]{"entity":"field-of-study", "value": "fizyka"} dla studiów [level1]{"entity":"course-type", "value": "level1"}
+- Ilu studentów możecie przyjąć na [informatyka]{"entity":"field-of-study", "value": "informatyka"} dla studiów [level1]{"entity":"course-type", "value": "level1"}
+- Ilu studentów możecie przyjąć na [automatyka]{"entity":"field-of-study", "value": "automatyka"} dla studiów [level1]{"entity":"course-type", "value": "level1"}
+- Ilu studentów możecie przyjąć na [matematyka]{"entity":"field-of-study", "value": "matematyka"} dla studiów [level1]{"entity":"course-type", "value": "level1"}
+- Ilu studentów możecie przyjąć na [biologia]{"entity":"field-of-study", "value": "biologia"} dla studiów [level1]{"entity":"course-type", "value": "level1"}
+- Ilu studentów możecie przyjąć na [chemia]{"entity":"field-of-study", "value": "chemia"} dla studiów [level1]{"entity":"course-type", "value": "level1"}
+- Ilu studentów możecie przyjąć na [zarządzanie]{"entity":"field-of-study", "value": "zarządzanie"} dla studiów [level1]{"entity":"course-type", "value": "level1"}
+- Ilu studentów możecie przyjąć na [fizyka]{"entity":"field-of-study", "value": "fizyka"} dla studiów [level2]{"entity":"course-type", "value": "level2"}
+- Ilu studentów możecie przyjąć na [informatyka]{"entity":"field-of-study", "value": "informatyka"} dla studiów [level2]{"entity":"course-type", "value": "level2"}
+- Ilu studentów możecie przyjąć na [automatyka]{"entity":"field-of-study", "value": "automatyka"} dla studiów [level2]{"entity":"course-type", "value": "level2"}
+- Ilu studentów możecie przyjąć na [matematyka]{"entity":"field-of-study", "value": "matematyka"} dla studiów [level2]{"entity":"course-type", "value": "level2"}
+- Ilu studentów możecie przyjąć na [biologia]{"entity":"field-of-study", "value": "biologia"} dla studiów [level2]{"entity":"course-type", "value": "level2"}
+- Ilu studentów możecie przyjąć na [chemia]{"entity":"field-of-study", "value": "chemia"} dla studiów [level2]{"entity":"course-type", "value": "level2"}
+- Ilu studentów możecie przyjąć na [zarządzanie]{"entity":"field-of-study", "value": "zarządzanie"} dla studiów [level2]{"entity":"course-type", "value": "level2"}
+- Jaki jest limit dla studiów [stacjonarne]{"entity":"course-type", "value": "stacjonarne"} na kierunku [fizyka]{"entity":"field-of-study", "value": "fizyka"}
+- Jaki jest limit dla studiów [stacjonarne]{"entity":"course-type", "value": "stacjonarne"} na kierunku [informatyka]{"entity":"field-of-study", "value": "informatyka"}
+- Jaki jest limit dla studiów [stacjonarne]{"entity":"course-type", "value": "stacjonarne"} na kierunku [automatyka]{"entity":"field-of-study", "value": "automatyka"}
+- Jaki jest limit dla studiów [stacjonarne]{"entity":"course-type", "value": "stacjonarne"} na kierunku [matematyka]{"entity":"field-of-study", "value": "matematyka"}
+- Jaki jest limit dla studiów [stacjonarne]{"entity":"course-type", "value": "stacjonarne"} na kierunku [biologia]{"entity":"field-of-study", "value": "biologia"}
+- Jaki jest limit dla studiów [stacjonarne]{"entity":"course-type", "value": "stacjonarne"} na kierunku [chemia]{"entity":"field-of-study", "value": "chemia"}
+- Jaki jest limit dla studiów [stacjonarne]{"entity":"course-type", "value": "stacjonarne"} na kierunku [zarządzanie]{"entity":"field-of-study", "value": "zarządzanie"}
+- Jaki jest limit dla studiów [niestacjonarne]{"entity":"course-type", "value": "niestacjonarne"} na kierunku [fizyka]{"entity":"field-of-study", "value": "fizyka"}
+- Jaki jest limit dla studiów [niestacjonarne]{"entity":"course-type", "value": "niestacjonarne"} na kierunku [informatyka]{"entity":"field-of-study", "value": "informatyka"}
+- Jaki jest limit dla studiów [niestacjonarne]{"entity":"course-type", "value": "niestacjonarne"} na kierunku [automatyka]{"entity":"field-of-study", "value": "automatyka"}
+- Jaki jest limit dla studiów [niestacjonarne]{"entity":"course-type", "value": "niestacjonarne"} na kierunku [matematyka]{"entity":"field-of-study", "value": "matematyka"}
+- Jaki jest limit dla studiów [niestacjonarne]{"entity":"course-type", "value": "niestacjonarne"} na kierunku [biologia]{"entity":"field-of-study", "value": "biologia"}
+- Jaki jest limit dla studiów [niestacjonarne]{"entity":"course-type", "value": "niestacjonarne"} na kierunku [chemia]{"entity":"field-of-study", "value": "chemia"}
+- Jaki jest limit dla studiów [niestacjonarne]{"entity":"course-type", "value": "niestacjonarne"} na kierunku [zarządzanie]{"entity":"field-of-study", "value": "zarządzanie"}
+- Jaki jest limit dla studiów [level2]{"entity":"course-type", "value": "level2"} na kierunku [fizyka]{"entity":"field-of-study", "value": "fizyka"}
+- Jaki jest limit dla studiów [level2]{"entity":"course-type", "value": "level2"} na kierunku [informatyka]{"entity":"field-of-study", "value": "informatyka"}
+- Jaki jest limit dla studiów [level2]{"entity":"course-type", "value": "level2"} na kierunku [automatyka]{"entity":"field-of-study", "value": "automatyka"}
+- Jaki jest limit dla studiów [level2]{"entity":"course-type", "value": "level2"} na kierunku [matematyka]{"entity":"field-of-study", "value": "matematyka"}
+- Jaki jest limit dla studiów [level2]{"entity":"course-type", "value": "level2"} na kierunku [biologia]{"entity":"field-of-study", "value": "biologia"}
+- Jaki jest limit dla studiów [level2]{"entity":"course-type", "value": "level2"} na kierunku [chemia]{"entity":"field-of-study", "value": "chemia"}
+- Jaki jest limit dla studiów [level2]{"entity":"course-type", "value": "level2"} na kierunku [zarządzanie]{"entity":"field-of-study", "value": "zarządzanie"}
+- Jaki jest limit dla studiów [level1]{"entity":"course-type", "value": "level1"} na kierunku [fizyka]{"entity":"field-of-study", "value": "fizyka"}
+- Jaki jest limit dla studiów [level1]{"entity":"course-type", "value": "level1"} na kierunku [informatyka]{"entity":"field-of-study", "value": "informatyka"}
+- Jaki jest limit dla studiów [level1]{"entity":"course-type", "value": "level1"} na kierunku [automatyka]{"entity":"field-of-study", "value": "automatyka"}
+- Jaki jest limit dla studiów [level1]{"entity":"course-type", "value": "level1"} na kierunku [matematyka]{"entity":"field-of-study", "value": "matematyka"}
+- Jaki jest limit dla studiów [level1]{"entity":"course-type", "value": "level1"} na kierunku [biologia]{"entity":"field-of-study", "value": "biologia"}
+- Jaki jest limit dla studiów [level1]{"entity":"course-type", "value": "level1"} na kierunku [chemia]{"entity":"field-of-study", "value": "chemia"}
+- Jaki jest limit dla studiów [level1]{"entity":"course-type", "value": "level1"} na kierunku [zarządzanie]{"entity":"field-of-study", "value": "zarządzanie"}
+- Jaki jest limit dla studiów [stacjonarne]{"entity":"course-type", "value": "stacjonarne"} [level2]{"entity":"course-type", "value": "level2"} na kierunku [fizyka]{"entity":"field-of-study", "value": "fizyka"}
+- Jaki jest limit dla studiów [stacjonarne]{"entity":"course-type", "value": "stacjonarne"} [level2]{"entity":"course-type", "value": "level2"} na kierunku [informatyka]{"entity":"field-of-study", "value": "informatyka"}
+- Jaki jest limit dla studiów [stacjonarne]{"entity":"course-type", "value": "stacjonarne"} [level2]{"entity":"course-type", "value": "level2"} na kierunku [automatyka]{"entity":"field-of-study", "value": "automatyka"}
+- Jaki jest limit dla studiów [stacjonarne]{"entity":"course-type", "value": "stacjonarne"} [level2]{"entity":"course-type", "value": "level2"} na kierunku [matematyka]{"entity":"field-of-study", "value": "matematyka"}
+- Jaki jest limit dla studiów [stacjonarne]{"entity":"course-type", "value": "stacjonarne"} [level2]{"entity":"course-type", "value": "level2"} na kierunku [biologia]{"entity":"field-of-study", "value": "biologia"}
+- Jaki jest limit dla studiów [stacjonarne]{"entity":"course-type", "value": "stacjonarne"} [level2]{"entity":"course-type", "value": "level2"} na kierunku [chemia]{"entity":"field-of-study", "value": "chemia"}
+- Jaki jest limit dla studiów [stacjonarne]{"entity":"course-type", "value": "stacjonarne"} [level2]{"entity":"course-type", "value": "level2"} na kierunku [zarządzanie]{"entity":"field-of-study", "value": "zarządzanie"}
+- Jaki jest limit dla studiów [stacjonarne]{"entity":"course-type", "value": "stacjonarne"} [level1]{"entity":"course-type", "value": "level1"} na kierunku [fizyka]{"entity":"field-of-study", "value": "fizyka"}
+- Jaki jest limit dla studiów [stacjonarne]{"entity":"course-type", "value": "stacjonarne"} [level1]{"entity":"course-type", "value": "level1"} na kierunku [informatyka]{"entity":"field-of-study", "value": "informatyka"}
+- Jaki jest limit dla studiów [stacjonarne]{"entity":"course-type", "value": "stacjonarne"} [level1]{"entity":"course-type", "value": "level1"} na kierunku [automatyka]{"entity":"field-of-study", "value": "automatyka"}
+- Jaki jest limit dla studiów [stacjonarne]{"entity":"course-type", "value": "stacjonarne"} [level1]{"entity":"course-type", "value": "level1"} na kierunku [matematyka]{"entity":"field-of-study", "value": "matematyka"}
+- Jaki jest limit dla studiów [stacjonarne]{"entity":"course-type", "value": "stacjonarne"} [level1]{"entity":"course-type", "value": "level1"} na kierunku [biologia]{"entity":"field-of-study", "value": "biologia"}
+- Jaki jest limit dla studiów [stacjonarne]{"entity":"course-type", "value": "stacjonarne"} [level1]{"entity":"course-type", "value": "level1"} na kierunku [chemia]{"entity":"field-of-study", "value": "chemia"}
+- Jaki jest limit dla studiów [stacjonarne]{"entity":"course-type", "value": "stacjonarne"} [level1]{"entity":"course-type", "value": "level1"} na kierunku [zarządzanie]{"entity":"field-of-study", "value": "zarządzanie"}
+- Jaki jest limit dla studiów [niestacjonarne]{"entity":"course-type", "value": "niestacjonarne"} [level2]{"entity":"course-type", "value": "level2"} na kierunku [fizyka]{"entity":"field-of-study", "value": "fizyka"}
+- Jaki jest limit dla studiów [niestacjonarne]{"entity":"course-type", "value": "niestacjonarne"} [level2]{"entity":"course-type", "value": "level2"} na kierunku [informatyka]{"entity":"field-of-study", "value": "informatyka"}
+- Jaki jest limit dla studiów [niestacjonarne]{"entity":"course-type", "value": "niestacjonarne"} [level2]{"entity":"course-type", "value": "level2"} na kierunku [automatyka]{"entity":"field-of-study", "value": "automatyka"}
+- Jaki jest limit dla studiów [niestacjonarne]{"entity":"course-type", "value": "niestacjonarne"} [level2]{"entity":"course-type", "value": "level2"} na kierunku [matematyka]{"entity":"field-of-study", "value": "matematyka"}
+- Jaki jest limit dla studiów [niestacjonarne]{"entity":"course-type", "value": "niestacjonarne"} [level2]{"entity":"course-type", "value": "level2"} na kierunku [biologia]{"entity":"field-of-study", "value": "biologia"}
+- Jaki jest limit dla studiów [niestacjonarne]{"entity":"course-type", "value": "niestacjonarne"} [level2]{"entity":"course-type", "value": "level2"} na kierunku [chemia]{"entity":"field-of-study", "value": "chemia"}
+- Jaki jest limit dla studiów [niestacjonarne]{"entity":"course-type", "value": "niestacjonarne"} [level2]{"entity":"course-type", "value": "level2"} na kierunku [zarządzanie]{"entity":"field-of-study", "value": "zarządzanie"}
+- Jaki jest limit dla studiów [niestacjonarne]{"entity":"course-type", "value": "niestacjonarne"} [level1]{"entity":"course-type", "value": "level1"} na kierunku [fizyka]{"entity":"field-of-study", "value": "fizyka"}
+- Jaki jest limit dla studiów [niestacjonarne]{"entity":"course-type", "value": "niestacjonarne"} [level1]{"entity":"course-type", "value": "level1"} na kierunku [informatyka]{"entity":"field-of-study", "value": "informatyka"}
+- Jaki jest limit dla studiów [niestacjonarne]{"entity":"course-type", "value": "niestacjonarne"} [level1]{"entity":"course-type", "value": "level1"} na kierunku [automatyka]{"entity":"field-of-study", "value": "automatyka"}
+- Jaki jest limit dla studiów [niestacjonarne]{"entity":"course-type", "value": "niestacjonarne"} [level1]{"entity":"course-type", "value": "level1"} na kierunku [matematyka]{"entity":"field-of-study", "value": "matematyka"}
+- Jaki jest limit dla studiów [niestacjonarne]{"entity":"course-type", "value": "niestacjonarne"} [level1]{"entity":"course-type", "value": "level1"} na kierunku [biologia]{"entity":"field-of-study", "value": "biologia"}
+- Jaki jest limit dla studiów [niestacjonarne]{"entity":"course-type", "value": "niestacjonarne"} [level1]{"entity":"course-type", "value": "level1"} na kierunku [chemia]{"entity":"field-of-study", "value": "chemia"}
+- Jaki jest limit dla studiów [niestacjonarne]{"entity":"course-type", "value": "niestacjonarne"} [level1]{"entity":"course-type", "value": "level1"} na kierunku [zarządzanie]{"entity":"field-of-study", "value": "zarządzanie"}
+- Ile jest miejsc na [niestacjonarne]{"entity":"course-type", "value": "niestacjonarne"} studia [level2]{"entity":"course-type", "value": "level2"} na kierunku [fizyka]{"entity":"field-of-study", "value": "fizyka"}
+- Ile jest miejsc na [niestacjonarne]{"entity":"course-type", "value": "niestacjonarne"} studia [level2]{"entity":"course-type", "value": "level2"} na kierunku [informatyka]{"entity":"field-of-study", "value": "informatyka"}
+- Ile jest miejsc na [niestacjonarne]{"entity":"course-type", "value": "niestacjonarne"} studia [level2]{"entity":"course-type", "value": "level2"} na kierunku [automatyka]{"entity":"field-of-study", "value": "automatyka"}
+- Ile jest miejsc na [niestacjonarne]{"entity":"course-type", "value": "niestacjonarne"} studia [level2]{"entity":"course-type", "value": "level2"} na kierunku [matematyka]{"entity":"field-of-study", "value": "matematyka"}
+- Ile jest miejsc na [niestacjonarne]{"entity":"course-type", "value": "niestacjonarne"} studia [level2]{"entity":"course-type", "value": "level2"} na kierunku [biologia]{"entity":"field-of-study", "value": "biologia"}
+- Ile jest miejsc na [niestacjonarne]{"entity":"course-type", "value": "niestacjonarne"} studia [level2]{"entity":"course-type", "value": "level2"} na kierunku [chemia]{"entity":"field-of-study", "value": "chemia"}
+- Ile jest miejsc na [niestacjonarne]{"entity":"course-type", "value": "niestacjonarne"} studia [level2]{"entity":"course-type", "value": "level2"} na kierunku [zarządzanie]{"entity":"field-of-study", "value": "zarządzanie"}
+- Ile jest miejsc na [stacjonarne]{"entity":"course-type", "value": "stacjonarne"} studia [level2]{"entity":"course-type", "value": "level2"} na kierunku [fizyka]{"entity":"field-of-study", "value": "fizyka"}
+- Ile jest miejsc na [stacjonarne]{"entity":"course-type", "value": "stacjonarne"} studia [level2]{"entity":"course-type", "value": "level2"} na kierunku [informatyka]{"entity":"field-of-study", "value": "informatyka"}
+- Ile jest miejsc na [stacjonarne]{"entity":"course-type", "value": "stacjonarne"} studia [level2]{"entity":"course-type", "value": "level2"} na kierunku [automatyka]{"entity":"field-of-study", "value": "automatyka"}
+- Ile jest miejsc na [stacjonarne]{"entity":"course-type", "value": "stacjonarne"} studia [level2]{"entity":"course-type", "value": "level2"} na kierunku [matematyka]{"entity":"field-of-study", "value": "matematyka"}
+- Ile jest miejsc na [stacjonarne]{"entity":"course-type", "value": "stacjonarne"} studia [level2]{"entity":"course-type", "value": "level2"} na kierunku [biologia]{"entity":"field-of-study", "value": "biologia"}
+- Ile jest miejsc na [stacjonarne]{"entity":"course-type", "value": "stacjonarne"} studia [level2]{"entity":"course-type", "value": "level2"} na kierunku [chemia]{"entity":"field-of-study", "value": "chemia"}
+- Ile jest miejsc na [stacjonarne]{"entity":"course-type", "value": "stacjonarne"} studia [level2]{"entity":"course-type", "value": "level2"} na kierunku [zarządzanie]{"entity":"field-of-study", "value": "zarządzanie"}
+- Ile jest miejsc na [niestacjonarne]{"entity":"course-type", "value": "niestacjonarne"} studia [level1]{"entity":"course-type", "value": "level1"} na kierunku [fizyka]{"entity":"field-of-study", "value": "fizyka"}
+- Ile jest miejsc na [niestacjonarne]{"entity":"course-type", "value": "niestacjonarne"} studia [level1]{"entity":"course-type", "value": "level1"} na kierunku [informatyka]{"entity":"field-of-study", "value": "informatyka"}
+- Ile jest miejsc na [niestacjonarne]{"entity":"course-type", "value": "niestacjonarne"} studia [level1]{"entity":"course-type", "value": "level1"} na kierunku [automatyka]{"entity":"field-of-study", "value": "automatyka"}
+- Ile jest miejsc na [niestacjonarne]{"entity":"course-type", "value": "niestacjonarne"} studia [level1]{"entity":"course-type", "value": "level1"} na kierunku [matematyka]{"entity":"field-of-study", "value": "matematyka"}
+- Ile jest miejsc na [niestacjonarne]{"entity":"course-type", "value": "niestacjonarne"} studia [level1]{"entity":"course-type", "value": "level1"} na kierunku [biologia]{"entity":"field-of-study", "value": "biologia"}
+- Ile jest miejsc na [niestacjonarne]{"entity":"course-type", "value": "niestacjonarne"} studia [level1]{"entity":"course-type", "value": "level1"} na kierunku [chemia]{"entity":"field-of-study", "value": "chemia"}
+- Ile jest miejsc na [niestacjonarne]{"entity":"course-type", "value": "niestacjonarne"} studia [level1]{"entity":"course-type", "value": "level1"} na kierunku [zarządzanie]{"entity":"field-of-study", "value": "zarządzanie"}
+- Ile jest miejsc na [stacjonarne]{"entity":"course-type", "value": "stacjonarne"} studia [level1]{"entity":"course-type", "value": "level1"} na kierunku [fizyka]{"entity":"field-of-study", "value": "fizyka"}
+- Ile jest miejsc na [stacjonarne]{"entity":"course-type", "value": "stacjonarne"} studia [level1]{"entity":"course-type", "value": "level1"} na kierunku [informatyka]{"entity":"field-of-study", "value": "informatyka"}
+- Ile jest miejsc na [stacjonarne]{"entity":"course-type", "value": "stacjonarne"} studia [level1]{"entity":"course-type", "value": "level1"} na kierunku [automatyka]{"entity":"field-of-study", "value": "automatyka"}
+- Ile jest miejsc na [stacjonarne]{"entity":"course-type", "value": "stacjonarne"} studia [level1]{"entity":"course-type", "value": "level1"} na kierunku [matematyka]{"entity":"field-of-study", "value": "matematyka"}
+- Ile jest miejsc na [stacjonarne]{"entity":"course-type", "value": "stacjonarne"} studia [level1]{"entity":"course-type", "value": "level1"} na kierunku [biologia]{"entity":"field-of-study", "value": "biologia"}
+- Ile jest miejsc na [stacjonarne]{"entity":"course-type", "value": "stacjonarne"} studia [level1]{"entity":"course-type", "value": "level1"} na kierunku [chemia]{"entity":"field-of-study", "value": "chemia"}
+- Ile jest miejsc na [stacjonarne]{"entity":"course-type", "value": "stacjonarne"} studia [level1]{"entity":"course-type", "value": "level1"} na kierunku [zarządzanie]{"entity":"field-of-study", "value": "zarządzanie"}
+
+## intent:get_field_of_study
+- Chciałem zapytać o [fizyka]{"entity":"field-of-study", "value": "fizyka"}
+- Chciałem zapytać o [informatyka]{"entity":"field-of-study", "value": "informatyka"}
+- Chciałem zapytać o [automatyka]{"entity":"field-of-study", "value": "automatyka"}
+- Chciałem zapytać o [matematyka]{"entity":"field-of-study", "value": "matematyka"}
+- Chciałem zapytać o [biologia]{"entity":"field-of-study", "value": "biologia"}
+- Chciałem zapytać o [chemia]{"entity":"field-of-study", "value": "chemia"}
+- Chciałem zapytać o [zarządzanie]{"entity":"field-of-study", "value": "zarządzanie"}
+- Chciałbym uzyskać informacje o kierunku [fizyka]{"entity":"field-of-study", "value": "fizyka"}
+- Chciałbym uzyskać informacje o kierunku [informatyka]{"entity":"field-of-study", "value": "informatyka"}
+- Chciałbym uzyskać informacje o kierunku [automatyka]{"entity":"field-of-study", "value": "automatyka"}
+- Chciałbym uzyskać informacje o kierunku [matematyka]{"entity":"field-of-study", "value": "matematyka"}
+- Chciałbym uzyskać informacje o kierunku [biologia]{"entity":"field-of-study", "value": "biologia"}
+- Chciałbym uzyskać informacje o kierunku [chemia]{"entity":"field-of-study", "value": "chemia"}
+- Chciałbym uzyskać informacje o kierunku [zarządzanie]{"entity":"field-of-study", "value": "zarządzanie"}
+- Szukam szczegółów o kiernku [fizyka]{"entity":"field-of-study", "value": "fizyka"}
+- Szukam szczegółów o kiernku [informatyka]{"entity":"field-of-study", "value": "informatyka"}
+- Szukam szczegółów o kiernku [automatyka]{"entity":"field-of-study", "value": "automatyka"}
+- Szukam szczegółów o kiernku [matematyka]{"entity":"field-of-study", "value": "matematyka"}
+- Szukam szczegółów o kiernku [biologia]{"entity":"field-of-study", "value": "biologia"}
+- Szukam szczegółów o kiernku [chemia]{"entity":"field-of-study", "value": "chemia"}
+- Szukam szczegółów o kiernku [zarządzanie]{"entity":"field-of-study", "value": "zarządzanie"}
+- Proszę o informacje na temat kiernku [fizyka]{"entity":"field-of-study", "value": "fizyka"}
+- Proszę o informacje na temat kiernku [informatyka]{"entity":"field-of-study", "value": "informatyka"}
+- Proszę o informacje na temat kiernku [automatyka]{"entity":"field-of-study", "value": "automatyka"}
+- Proszę o informacje na temat kiernku [matematyka]{"entity":"field-of-study", "value": "matematyka"}
+- Proszę o informacje na temat kiernku [biologia]{"entity":"field-of-study", "value": "biologia"}
+- Proszę o informacje na temat kiernku [chemia]{"entity":"field-of-study", "value": "chemia"}
+- Proszę o informacje na temat kiernku [zarządzanie]{"entity":"field-of-study", "value": "zarządzanie"}
+- [fizyka]{"entity":"field-of-study", "value": "fizyka"}
+- [informatyka]{"entity":"field-of-study", "value": "informatyka"}
+- [automatyka]{"entity":"field-of-study", "value": "automatyka"}
+- [matematyka]{"entity":"field-of-study", "value": "matematyka"}
+- [biologia]{"entity":"field-of-study", "value": "biologia"}
+- [chemia]{"entity":"field-of-study", "value": "chemia"}
+- [zarządzanie]{"entity":"field-of-study", "value": "zarządzanie"}
+
+## intent:get_course_level
+- Chodzi mi o studia [level1]{"entity":"course-level", "value": "level1"}
+- Chodzi mi o studia [level2]{"entity":"course-level", "value": "level2"}
+- Chcialbym uzyskać informacje o studiach [level1]{"entity":"course-level", "value": "level1"}
+- Chcialbym uzyskać informacje o studiach [level2]{"entity":"course-level", "value": "level2"}
+- Chcialbym uzyskać informacje o studiach na stopniu [level1]{"entity":"course-level", "value": "level1"}
+- Chcialbym uzyskać informacje o studiach na stopniu [level2]{"entity":"course-level", "value": "level2"}
+- [level1]{"entity":"course-level", "value": "level1"}
+- [level2]{"entity":"course-level", "value": "level2"}
+- Proszę o informacje o studiach [level1]{"entity":"course-level", "value": "level1"}
+- Proszę o informacje o studiach [level2]{"entity":"course-level", "value": "level2"}
+- Chodzi mi o studia [level1]{"entity":"course-level", "value": "level1"}
+- Chodzi mi o studia [level2]{"entity":"course-level", "value": "level2"}
+- Chodzi mi o szczególy na temat studiów [level1]{"entity":"course-level", "value": "level1"}
+- Chodzi mi o szczególy na temat studiów [level2]{"entity":"course-level", "value": "level2"}
+- Potrzebuję więcej informacji o studiach [level1]{"entity":"course-level", "value": "level1"}
+- Potrzebuję więcej informacji o studiach [level2]{"entity":"course-level", "value": "level2"}
+
+## intent:get_course_type
+- Chodzi mi o studia [stacjonarne]{"entity":"course-type", "value": "stacjonarne"}
+- Chodzi mi o studia [niestacjonarne]{"entity":"course-type", "value": "niestacjonarne"}
+- Chcialbym uzyskać informacje o studiach [stacjonarne]{"entity":"course-type", "value": "stacjonarne"}
+- Chcialbym uzyskać informacje o studiach [niestacjonarne]{"entity":"course-type", "value": "niestacjonarne"}
+- Chcialbym uzyskać informacje o studiach na stopniu [stacjonarne]{"entity":"course-type", "value": "stacjonarne"}
+- Chcialbym uzyskać informacje o studiach na stopniu [niestacjonarne]{"entity":"course-type", "value": "niestacjonarne"}
+- [stacjonarne]{"entity":"course-type", "value": "stacjonarne"}
+- [niestacjonarne]{"entity":"course-type", "value": "niestacjonarne"}
+- Proszę o informacje o studiach [stacjonarne]{"entity":"course-type", "value": "stacjonarne"}
+- Proszę o informacje o studiach [niestacjonarne]{"entity":"course-type", "value": "niestacjonarne"}
+- Chodzi mi o studia [stacjonarne]{"entity":"course-type", "value": "stacjonarne"}
+- Chodzi mi o studia [niestacjonarne]{"entity":"course-type", "value": "niestacjonarne"}
+- Chodzi mi o szczególy na temat studiów [stacjonarne]{"entity":"course-type", "value": "stacjonarne"}
+- Chodzi mi o szczególy na temat studiów [niestacjonarne]{"entity":"course-type", "value": "niestacjonarne"}
+- Potrzebuję więcej informacji o studiach [stacjonarne]{"entity":"course-type", "value": "stacjonarne"}
+- Potrzebuję więcej informacji o studiach [niestacjonarne]{"entity":"course-type", "value": "niestacjonarne"}
+
+## synonym:fizyka
+- fizyczny
+- fizyce
+- fizycznych
+- fizycznym
+
+## synonym:informatyka
+- informatykę
+- informatyczny
+- informatyce
+- informatycznych 
+
+##  synonym:automatyka
+-   automatykę
+-   automatyka i robotyka
+-   automatykę i robotykę
+-   automatyce i robotyce
+
+## synonym:matematyka
+-   matematykę
+-   matematyce
+
+## synonym:biologia
+-   biologię
+-   biologiczny
+-   biologii
+
+##  synonym:chemia
+-   chemię
+-   chemiczny
+-   chemii
+
+##  synonym:zarządzanie
+-   zarządzaniu
+
+## synonym:level1
+-   inżynierskie
+-   pierwszy stopień
+-   licencjackie
+-   licencjat
+
+## synonym:level2
+-   magister
+-   drugiego stopnia
+-   drugi stopień
+
+## synonym:niestacjonarne
+-   zaoczne
+-   zaocznie
+-   weekendowo
+-   niestacjonarnie
+-   niestacjonarne
+
+## synonym:stacjonarne
+-   dziennie
+-   dziennych
+-   stacjonarnie
+-   stacjonarne
+-   stacjonarnych
