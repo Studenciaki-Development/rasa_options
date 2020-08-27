@@ -5,9 +5,23 @@ from sqlalchemy.ext.declarative import declarative_base
 Base = declarative_base()
 engine = create_engine("sqlite:///db/uczelnia.db")
 
+FIELDS_OF_STUDY = [
+    "fizyka",
+    "informatyka",
+    "matematyka",
+    "chemia",
+    "biologia",
+    "automatyka",
+    "zarządzanie",
+]
+
 
 class Categories(Base):
     __table__ = Table("categories", Base.metadata, autoload=True, autoload_with=engine)
+
+
+class ListOfStudyFields(Base):
+    __table__ = Table("przedmioty", Base.metadata, autoload=True, autoload_with=engine)
 
 
 Base.metadata.create_all(engine)
@@ -39,3 +53,28 @@ def get_categories(category):
         return subcategoryList
     except:
         return [0, 0]
+
+
+def get_subject_limit(study_field):
+    session = Session()
+
+    try:
+        question_target = (
+            session.query(ListOfStudyFields)
+            .filter(ListOfStudyFields.nazwa == study_field)
+            .one()
+        )
+    except:
+        return []
+
+    limit_stat1 = question_target.stacjonarne_S1
+    limit_stat2 = question_target.stacjonarne_S2
+    limit_niestat1 = question_target.stacjonarne_S1
+    limit_niestat2 = question_target.stacjonarne_S2
+    session.close()
+    return {
+        "limit_stat1": limit_stat1,
+        "limit_stat2": limit_stat2,
+        "limit_niestat1": limit_niestat1,
+        "limit_niestat2": limit_niestat2,
+    }
