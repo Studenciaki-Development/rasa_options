@@ -5,10 +5,9 @@ intents:
   - deny
   - bot_challenge
   - general_questions
-  - specific_dedlines
+  - specific_deadlines
   - specific_recruitment
   - specific_costs
-
 
 actions:
 - action_general_options

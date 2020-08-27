@@ -1,4 +1,4 @@
-## intent:specific_dedlines
+## intent:specific_deadlines
 - kiedy zaczyna się [druga tura]{"entity":"subcategory","value":"2turn"} [rekrutacja]{"entity":"category","value":"Rekrutacja"}
 - kiedy zaczyna się [pierwsza tura]{"entity":"subcategory","value":"1turn"} [rekrutacja]{"entity":"category","value":"Rekrutacja"}
 - czy będzie [druga tura]{"entity":"subcategory","value":"2turn"} [rekrutacja]{"entity":"category","value":"Rekrutacja"}
