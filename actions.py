@@ -1,6 +1,7 @@
 from university.queries.queries import get_message, get_subject_limit
 from university.translate import translate_entity_name_to_subcategory, prepare_message
 from university.init_query import init_query
+from university.verify_limits import verify_limits
 
 from typing import Any, Text, Dict, List
 
@@ -67,15 +68,7 @@ class LimitForm(FormAction):
             return []
 
         limits = get_subject_limit(study_field)
-
-        if limits["limit_niestat1"] is None and limits["limit_niestat2"] is None:
-            return ["field-of-study", "course-level"]
-        elif limits["limit_stat2"] is None and limits["limit_niestat2"] is None:
-            return ["field-of-study", "course-type"]
-        elif limits["limit_stat1"] is None and limits["limit_stat2"] is None:
-            return ["field-of-study", "course-level"]
-        else:
-            return ["field-of-study", "course-level", "course-type"]
+        return verify_limits(limits)
 
     def submit(
         self,
