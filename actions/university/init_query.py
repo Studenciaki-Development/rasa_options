@@ -1,5 +1,5 @@
-from university.queries.queries import get_categories
-from university.translate import translate_entity_name_to_subcategory
+from .queries.queries import get_categories
+from ..university.translate import translate_entity_name_to_subcategory
 
 
 def init_query(selected_category, subcategory):
