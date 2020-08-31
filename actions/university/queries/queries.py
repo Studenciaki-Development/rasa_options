@@ -3,7 +3,7 @@ from sqlalchemy.orm import sessionmaker, relationship
 from sqlalchemy.ext.declarative import declarative_base
 
 Base = declarative_base()
-engine = create_engine("sqlite:///db/uczelnia.db")
+engine = create_engine("sqlite:///actions/db/uczelnia.db")
 
 
 class Categories(Base):
