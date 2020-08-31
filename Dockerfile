@@ -16,8 +16,12 @@ RUN pip install -r requirements-actions.txt
 # Copy actions folder to working directory
 COPY ./actions /app/actions
 
+RUN rasa train --domain domain.yml --data data --out models
+
+EXPOSE 5005
 # By best practices, don't run the code with root user
 USER 1001
 
 # Start the action server
-CMD ["start", "--actions", "actions.actions"]
+# CMD ["start", "--actions", "actions.actions"]
+CMD [ "rasa", "run", "-m", "models", "--enable-api" ]
