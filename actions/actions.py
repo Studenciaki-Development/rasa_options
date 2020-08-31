@@ -1,12 +1,11 @@
-from university.queries.queries import get_message, get_subject_limit
-from university.translate import translate_entity_name_to_subcategory, prepare_message
-from university.init_query import init_query
-from university.verify_limits import verify_limits
+from actions.university.queries.queries import get_message, get_subject_limit
+from .university.translate import translate_entity_name_to_subcategory, prepare_message
+from .university.init_query import init_query
+from .university.verify_limits import verify_limits
 
 from typing import Any, Text, Dict, List
 
 from rasa_sdk.events import AllSlotsReset
-from rasa_sdk.events import SlotSet
 from rasa_sdk.forms import FormAction
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
