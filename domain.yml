@@ -1,72 +1,61 @@
-intents:
-    - greet
-    - goodbye
-    - affirm
-    - deny
-    - bot_challenge
-    - general_questions
-    - specific_deadlines
-    - specific_recruitment
-    - specific_costs
-    - field_of_study_limits
-    - get_field_of_study
-    - get_course_level
-    - get_course_type
-
-actions:
-    - action_general_options
-
-forms:
-    - form_get_field_of_study_limits
-
-entities:
-    - category
-    - subcategory
-    - field-of-study
-    - course-level
-    - course-type
-
-slots:
-    category:
-        type: unfeaturized
-    subcategory:
-        type: unfeaturized
-    field-of-study:
-        type: unfeaturized
-    course-level:
-        type: unfeaturized
-    course-type:
-        type: unfeaturized
-
-responses:
-    utter_greet:
-        - text: 'Cześć. Jestem wirtualnym asystentem rekrutacji.'
-
-    utter_goodbye:
-        - text: 'Miłego dnia'
-
-    utter_iamabot:
-        - text: 'Jestem wirtualnym asystentem rekrutacji'
-
-    utter_ask_field-of-study:
-        - text: 'O jakim kierunku potrzebujesz informacji?'
-
-    utter_ask_course-level:
-        - text: 'Wybierz stopień studiów:'
-          buttons:
-          - title: 'Studia pierwszego stopnia'
-            payload: '/get_course_level{"course-level":"level1"}'
-          - title: 'Studia drugiego stopnia'
-            payload: '/get_course_level{"course-level":"level2"}'
-
-    utter_ask_course-type:
-        - text: 'Wybierz rodzaj studiów:'
-          buttons:
-          - title: 'Stacjonarne'
-            payload: '/get_course_type{"course-type":"stacjonarne"}'
-          - title: 'Niestacjonarne'
-            payload: '/get_course_type{"course-type":"niestacjonarne"}'
-
 session_config:
-    session_expiration_time: 60
-    carry_over_slots_to_new_session: true
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet
+- goodbye
+- affirm
+- deny
+- bot_challenge
+- general_questions
+- specific_deadlines
+- specific_recruitment
+- specific_costs
+- field_of_study_limits
+- get_field_of_study
+- get_course_level
+- get_course_type
+entities:
+- category
+- subcategory
+- field-of-study
+- course-level
+- course-type
+slots:
+  category:
+    type: unfeaturized
+  course-level:
+    type: unfeaturized
+  course-type:
+    type: unfeaturized
+  field-of-study:
+    type: unfeaturized
+  subcategory:
+    type: unfeaturized
+responses:
+  utter_greet:
+  - text: Cześć. Jestem wirtualnym asystentem rekrutacji.
+  utter_goodbye:
+  - text: Miłego dnia
+  utter_iamabot:
+  - text: Jestem wirtualnym asystentem rekrutacji
+  utter_ask_field-of-study:
+  - text: O jakim kierunku potrzebujesz informacji?
+  utter_ask_course-level:
+  - buttons:
+    - payload: /get_course_level{"course-level":"level1"}
+      title: Studia pierwszego stopnia
+    - payload: /get_course_level{"course-level":"level2"}
+      title: Studia drugiego stopnia
+    text: 'Wybierz stopień studiów:'
+  utter_ask_course-type:
+  - buttons:
+    - payload: /get_course_type{"course-type":"stacjonarne"}
+      title: Stacjonarne
+    - payload: /get_course_type{"course-type":"niestacjonarne"}
+      title: Niestacjonarne
+    text: 'Wybierz rodzaj studiów:'
+actions:
+- action_general_options
+forms:
+- form_get_field_of_study_limits
