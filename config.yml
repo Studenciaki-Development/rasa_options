@@ -13,6 +13,9 @@ pipeline:
     - name: DIETClassifier
       epochs: 100
     - name: EntitySynonymMapper
+    - name: custom_nlu.FuzzyMatcher.FuzzyMatcher
+      entities:
+        - category
     - name: ResponseSelector
       epochs: 100
 
