@@ -12,6 +12,11 @@ pipeline:
       max_ngram: 4
     - name: DIETClassifier
       epochs: 100
+    - name: custom_nlu.FuzzyMatcher.FuzzyMatcher
+      entities:
+        - category
+        - subcategory
+        - field-of-study
     - name: EntitySynonymMapper
     - name: ResponseSelector
       epochs: 100
