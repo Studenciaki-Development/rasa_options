@@ -1,0 +1,27 @@
+{
+    "category": [
+      "Rekrutacja",
+      "Opłaty",
+      "Terminy"
+    ],
+  "subcategory": [
+      "Rozpoczęcie rekrutacji",
+      "Druga tura",
+      "Dokumenty",
+      "Limity przyjęć",
+      "Lista kierunków",
+      "Wolne miejsca",
+      "Opłata rekrutacyjna",
+      "Opłata za studia",
+      "Zwrot opłat"
+  ],
+  "field-of-study":[
+    "fizyka",
+    "informatyka",
+    "matematyka",
+    "chemia",
+    "biologia",
+    "automatyka",
+    "zarządzanie"
+  ]
+}
