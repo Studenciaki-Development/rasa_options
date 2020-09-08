@@ -81,12 +81,13 @@ class LimitForm(FormAction):
             course_type = tracker.get_slot("course-type")
         except IOError:
             print(f"Error met while trying to get slots values in the LimitForm")
-
-        limit = get_subject_limit(field_of_study)
-
-        msg = prepare_message(field_of_study, course_level, course_type, limit)
-
-        dispatcher.utter_message(msg)
+        if field_of_study in FIELDS_OF_STUDY:
+            limit = get_subject_limit(field_of_study)
+            msg = prepare_message(field_of_study, course_level, course_type, limit)
+            dispatcher.utter_message(msg)
+        else:
+            dispatcher.utter_message("Nie zrozumiałem twojego zapytania, albo na naszej uczelni nie ma takiego "
+                                     "kierunku.")
 
         return [AllSlotsReset()]
 
