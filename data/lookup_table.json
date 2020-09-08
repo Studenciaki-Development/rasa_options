@@ -23,5 +23,9 @@
     "biologia",
     "automatyka",
     "zarządzanie"
+  ],
+  "course-type": [
+    "stacjonarne",
+    "niestacjonarne"
   ]
 }
