@@ -26,31 +26,31 @@ class ActionGeneralOptions(Action):
         return "action_general_options"
 
     def run(
-        self,
-        dispatcher: CollectingDispatcher,
-        tracker: Tracker,
-        domain: Dict[Text, Any],
+            self,
+            dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any],
     ) -> List[Dict[Text, Any]]:
 
-        buttonList = []
+        button_list = []
         selected_category = tracker.get_slot("category")
         subcategory = tracker.get_slot("subcategory")
 
-        subcategoryList = init_query(selected_category, subcategory)
+        subcategory_list = init_query(selected_category, subcategory)
 
-        for category in subcategoryList:
+        for category in subcategory_list:
             title = f"{category.name}"
             payload = f"{category.payload}"
-            buttonList.append({"title": title, "payload": payload})
+            button_list.append({"title": title, "payload": payload})
 
-        if len(buttonList) == 0:
+        if len(button_list) == 0:
             subcategory = translate_entity_name_to_subcategory(subcategory)
             message = get_message(subcategory)
             dispatcher.utter_message(text=message)
             print(f"{message}")
         else:
             message = "Wybierz kategorię pytania"
-            dispatcher.utter_message(text=message, buttons=buttonList)
+            dispatcher.utter_message(text=message, buttons=button_list)
 
         return [AllSlotsReset()]
 
@@ -70,23 +70,24 @@ class LimitForm(FormAction):
         return verify_limits(limits)
 
     def submit(
-        self,
-        dispatcher: CollectingDispatcher,
-        tracker: Tracker,
-        domain: Dict[Text, Any],
+            self,
+            dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any],
     ):
         try:
             field_of_study = tracker.get_slot("field-of-study")
             course_level = tracker.get_slot("course-level")
             course_type = tracker.get_slot("course-type")
-        except:
-            pass
-
-        limit = get_subject_limit(field_of_study)
-
-        msg = prepare_message(field_of_study, course_level, course_type, limit)
-
-        dispatcher.utter_message(msg)
+        except IOError:
+            print(f"Error met while trying to get slots values in the LimitForm")
+        if field_of_study in FIELDS_OF_STUDY:
+            limit = get_subject_limit(field_of_study)
+            msg = prepare_message(field_of_study, course_level, course_type, limit)
+            dispatcher.utter_message(msg)
+        else:
+            dispatcher.utter_message("Nie zrozumiałem twojego zapytania, albo na naszej uczelni nie ma takiego "
+                                     "kierunku.")
 
         return [AllSlotsReset()]
 

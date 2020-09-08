@@ -1,4 +1,4 @@
-from sqlalchemy import create_engine, Table
+from sqlalchemy import create_engine, Table, exc
 from sqlalchemy.orm import sessionmaker, relationship
 from sqlalchemy.ext.declarative import declarative_base
 
@@ -26,8 +26,8 @@ def get_message(category):
         )
         session.close()
         return message[0]
-    except:
-        message = "Ups. Coś poszło nie tak"
+    except exc.SQLAlchemyError:
+        message = "Error met while trying to get category's message from database"
         return message
 
 
@@ -35,12 +35,12 @@ def get_categories(category):
     session = Session()
     try:
         category_id = session.query(Categories.id).filter(Categories.name == category)
-        subcategoryList = session.query(Categories).filter(
+        subcategory_list = session.query(Categories).filter(
             Categories.parent_id == category_id
         )
         session.close()
 
-        return subcategoryList
+        return subcategory_list
     except:
         return [0, 0]
 
