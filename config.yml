@@ -17,6 +17,8 @@ pipeline:
         - category
         - subcategory
         - field-of-study
+        - course-level
+        - course-type
     - name: EntitySynonymMapper
     - name: ResponseSelector
       epochs: 100

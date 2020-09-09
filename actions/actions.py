@@ -79,6 +79,11 @@ class LimitForm(FormAction):
             field_of_study = tracker.get_slot("field-of-study")
             course_level = tracker.get_slot("course-level")
             course_type = tracker.get_slot("course-type")
+            if isinstance(course_level, list):
+                # sometimes rasa gets multiple slot values and saves them as a list
+                # course-level: ['level1','level1']
+                # we don't want that so I pick first value only
+                course_level = course_level[0]
         except IOError:
             print(f"Error met while trying to get slots values in the LimitForm")
         if field_of_study in FIELDS_OF_STUDY:
