@@ -18,7 +18,7 @@ class FuzzyMatcher(Component):
     provides = ["entities"]
     defaults = {}
     supported_language_list = None
-    threshold = 80
+    threshold = 70
 
     def __init__(self, component_config: Optional[Dict[Text, Any]] = None) -> None:
         super().__init__(component_config)
@@ -69,6 +69,10 @@ class FuzzyMatcher(Component):
                 if similarity_score is not None:
                     print("'" + token.text + "'" + " matches with " + str(similarity_score[0]) + "[" + similarity_score[
                         2] + "]" + " with a score of: " + str(similarity_score[1]))
+                    for i, item in enumerate(entities):
+                        # if entity already exist, update it (because diet classifier is higher in hierarchy)
+                        if item['entity'] == similarity_score[2]:
+                            item.update({"value": similarity_score[0]})
                     entities.append({
                         "start": token.start,
                         "end": token.end,

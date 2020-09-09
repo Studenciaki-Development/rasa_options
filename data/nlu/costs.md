@@ -28,3 +28,11 @@
 - zwroty
 - zwrotami
 - zwrotów
+
+## synonym:Opłaty
+- koszty
+- opłata
+- opłatą
+- opłatami
+- oplata
+- kosztami

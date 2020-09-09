@@ -23,5 +23,18 @@
     "biologia",
     "automatyka",
     "zarządzanie"
+  ],
+  "course-type": [
+    "stacjonarne",
+    "niestacjonarne"
+  ],
+  "course-level": [
+    "pierwszego stopnia",
+    "pierwszego",
+    "drugiego stopnia",
+    "drugiego",
+    "magisterskie",
+    "inżynierskie",
+    "licencjackie"
   ]
 }
