@@ -1,23 +1,10 @@
-# Extend the official Rasa SDK image
-FROM rasa/rasa-sdk:1.10.2
-
-# Use subdirectory as working directory
+FROM rasa/rasa:1.10.11-full
 WORKDIR /app
 
-# Copy any additional custom requirements, if necessary (uncomment next line)
-COPY actions/requirements-actions.txt ./
-
-# Change back to root user to install dependencies
 USER root
+RUN pip install fuzzywuzzy
 
-# Install extra requirements for actions code, if necessary (uncomment next line)
-RUN pip install -r requirements-actions.txt
+COPY ./custom_nlu /app/custom_nlu
+COPY ./data/lookup_table.json /app/data
 
-# Copy actions folder to working directory
-COPY ./actions /app/actions
-# By best practices, don't run the code with root user
 USER 1001
-
-# Start the action server
-#CMD [ "rasa", "run","--enable-api", "-m", "models", "&", ]
-#CMD ["start", "--actions", "actions.actions", "--debug"]
