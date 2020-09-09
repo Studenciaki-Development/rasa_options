@@ -27,7 +27,8 @@ def get_message(category):
         session.close()
         return message[0]
     except exc.SQLAlchemyError:
-        message = "Error met while trying to get category's message from database"
+        print("Error met while trying to get category's message from database")
+        message = "Nie zrozumiałem"
         return message
 
 
